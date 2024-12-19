@@ -13,30 +13,6 @@ end
 require 'open-uri'
 require 'nokogiri'
 
-mainSitemapURL = ARGV[0]
-if not mainSitemapURL.nil?
-  puts 'Running...' #+ mainSitemapURL
+require 'app/parser'
 
-  #mainSitemap = SitemapParser.new mainSitemapURL
-  mainSitemap = Nokogiri::HTML(open(mainSitemapURL))
-  # puts mainSitemap
-  urls = []
-  mainSitemap.xpath("//urlset/url/loc").each do |node|
-    urls << node.content.strip
-  end
-  urls.each do |url|
-    next unless url =~ /\/events\//
-    puts url
-    doc = Nokogiri::HTML(URI.open(url))
-    # pp doc.xpath("//div[@class='detail_date w-condition-invisible']").map { _1.content }
-    # pp doc.xpath("//div[@class='detail_content']").count
-
-    doc.xpath("//div[@class='detail_content']").each do |node|
-      pp node.content.inspect
-    end
-    break
-  end
-end
-
-
-# ./src/hitsig.html
+Parser.call(ARGV[0])
