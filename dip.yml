@@ -1,0 +1,54 @@
+version: '7.3'
+
+compose:
+  files:
+    - docker-compose.yml
+    - docker-compose.ports.yml
+    # - .devcontainer/docker-compose.override.yml # platform specific overrides
+  project_name: bwh-calendar
+
+interaction:
+  sh:
+    description: Open a Bash shell within a Rails container (with dependencies up)
+    service: runner
+    command: /bin/bash
+
+  bash:
+    description: Run an arbitrary script within a container (or open a shell without deps)
+    service: runner
+    command: /bin/bash
+    compose_run_options: [no-deps]
+
+  bundle:
+    description: Run Bundler commands
+    service: runner
+    command: bundle
+    compose_run_options: [no-deps]
+
+  rake:
+    description: Run Rake commands
+    service: runner
+    command: bundle exec rake
+
+  guard:
+    description: Run red-green-red refactor loop using guard
+    service: runner
+    command: bundle exec guard
+
+  rspec:
+    description: Run Rails tests
+    service: runner
+    command: bundle exec rspec
+
+provision:
+  # # Remove old containers and volumes.
+  - dip compose down --volumes --remove-orphans
+
+  # Create mount points for specific directories. By creating them as current user the have correct user id and group id.
+  - mkdir -p tmp
+
+  # Build the development container (based on .devcontainer/Dockerfile)
+  - dip compose --profile runner build
+
+  # Install gems
+  - dip bundle install

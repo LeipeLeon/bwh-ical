@@ -1,19 +1,15 @@
 #!/usr/bin/env  ruby
 # https://deepinthecode.com/2016/03/22/using-ruby-to-get-all-links-from-a-sitemap-xml-file/
-# ./reader.rbx  https://www.burgerweeshuis.nl/sitemap.xml
+# ./bin/reader.rbx  https://www.burgerweeshuis.nl/sitemap.xml
 require 'bundler/inline'
 
 gemfile do
   source 'https://rubygems.org'
 
-  gem 'sitemap-parser'
-  gem 'wayback_archiver'
   gem 'open-uri'
   gem 'nokogiri'
 end
 
-require 'sitemap-parser'
-require 'wayback_archiver'
 require 'open-uri'
 require 'nokogiri'
 
@@ -23,16 +19,24 @@ if not mainSitemapURL.nil?
 
   #mainSitemap = SitemapParser.new mainSitemapURL
   mainSitemap = Nokogiri::HTML(open(mainSitemapURL))
-  #puts mainSitemap
-  mainSitemap.xpath("//sitemap/loc").each do |node|
-    #puts node.content
-    subSitemapURL = node.content
-    subSitemap = SitemapParser.new subSitemapURL
-    arraySubSitemap = subSitemap.to_a
-    (0..arraySubSitemap.length-1).each do |j|
-      #puts arraySubSitemap[j]
-      WaybackArchiver.archive(arraySubSitemap[j], :url)
+  # puts mainSitemap
+  urls = []
+  mainSitemap.xpath("//urlset/url/loc").each do |node|
+    urls << node.content.strip
+  end
+  urls.each do |url|
+    next unless url =~ /\/events\//
+    puts url
+    doc = Nokogiri::HTML(URI.open(url))
+    # pp doc.xpath("//div[@class='detail_date w-condition-invisible']").map { _1.content }
+    # pp doc.xpath("//div[@class='detail_content']").count
+
+    doc.xpath("//div[@class='detail_content']").each do |node|
+      pp node.content.inspect
     end
+    break
   end
 end
-puts 'Finished.'
+
+
+# ./src/hitsig.html
