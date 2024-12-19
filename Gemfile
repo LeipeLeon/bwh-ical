@@ -13,4 +13,5 @@ group :development, :test do
   gem "mock_redis"
   gem "bundle-audit"
   gem "super_diff"
+  gem "webmock", "~> 3.24"
 end

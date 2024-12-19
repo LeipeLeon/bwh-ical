@@ -14,29 +14,27 @@ class Parser
   def call
     urls.each do |url|
       next unless url =~ /\/events\//
-      puts url
-      doc = Nokogiri::HTML(URI.open(url))
-
-      # pp doc.xpath("//div[@class='detail_content']").count
-
-      # doc.xpath("//div[@class='detail_content']/div/div/div[@class='detail_item']").each do |node|
-      doc.css(".detail_item").each do |node|
-        Hash[detail_content(node)]
+      pp url
+      Nokogiri::HTML(URI.open(url)).css(".detail_content").each do |node|
+        pp node.to_html
+        # pp
+        detail_content(node)
+        # pp Hash[detail_content(node)]
       end
-      break
+      # break
     end
   end
 
   def detail_content(node)
-    # puts "detail_content"
+    puts "detail_content"
     node.css('.detail_item').map do |wrapper|
-      # puts "  detail_item"
+      puts "  detail_item"
       wrapper.css('.detail_box').map do |box|
-        # puts "    detail_box"
+        puts "    detail_box"
         box.css('> div').map do |text|
           val = text.content.gsub(/[[:space:]]+/, " ").strip
           next if val =~ /\d+ \/ \d+ \/ \d+/
-          # puts "     div: #{val}"
+          puts "     div: #{val}"
           val
         end.compact
       end.transpose
