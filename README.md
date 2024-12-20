@@ -21,6 +21,7 @@ Why don't you use the `/events/rss.xml` feed?
 
 Why is the repo private?
 : In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days. For information on re-enabling a disabled workflow, see Disabling and enabling a workflow.
+If you want acces, [drop me a line!](email:leon@wendbaar.nl)
 *See: run on a [schedule](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)*
 
 ## local development

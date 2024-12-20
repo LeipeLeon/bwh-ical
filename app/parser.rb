@@ -59,7 +59,7 @@ class Parser
 
   def uri_open_headers
     {
-      "User-Agent" => "Ruby/#{RUBY_VERSION}; Leon Berenschot; https://github.com/LeipeLeon/bwh-ical",
+      "User-Agent" => "Ruby/#{RUBY_VERSION}; Leon Berenschot; https://leipeleon.github.io/bwh-ical/",
       redirect: false
     }
   end
