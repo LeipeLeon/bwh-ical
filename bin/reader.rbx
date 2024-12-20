@@ -14,5 +14,13 @@ require 'open-uri'
 require 'nokogiri'
 
 require './app/parser'
+require 'json'
 
-Parser.call(ARGV[0])
+url = ARGV[0] || "https://www.burgerweeshuis.nl/sitemap.xml"
+
+# retrieve all events
+events = Parser.call(url).compact
+
+# cache to disk
+File.open("scratch/events.json", 'w') { |file| file.write(events.to_json) }
+
