@@ -13,7 +13,7 @@ This project aims to fill that gap.
 - [x] save those details to disk
 - [x] generate an ical feed to disk
 - [x] deploy to gh-pages w/ a github action
-- [ ] cronjob every hour w/ a github action
+- [x] cronjob every hour w/ a github action
 
 ## update local sources for development
 
