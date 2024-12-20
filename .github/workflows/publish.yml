@@ -35,6 +35,12 @@ jobs:
           ruby-version: ${{ env.RUBY_VERSION }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
+      - name: Convert Markdown to HTML
+        uses: natescherer/markdown-to-html-with-github-style-action@v1
+        with:
+          path: index.md
+          outputpath: build
+
       - name: Build static files
         id: build
         run: |
