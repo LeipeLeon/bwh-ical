@@ -4,16 +4,20 @@ There was a time when the [Burgerweeshuis](https://www.burgerweeshuis.nl) site h
 
 This project aims to fill that gap.
 
-## ROADMAP
+JSON file: https://leipeleon.github.io/bwh-ical/events.json
+iCal file: https://leipeleon.github.io/bwh-ical/events.ics
 
-- [x] retrieve sitemap
-- [x] walk through all urls
-- [x] visit each url to fetch date / time
-- [x] visit each url to fetch other details
-- [x] save those details to disk
-- [x] generate an ical feed to disk
-- [x] deploy to gh-pages w/ a github action
-- [x] cronjob every hour w/ a github action
+## How it works
+
+- Retreive events from the <https://www.burgerweeshuis.nl/sitemap.xml>
+- filter out events URL's (`/events/`)
+- visit each url to fetch date / time / other details
+- save events to disk as a [`.json`](https://leipeleon.github.io/bwh-ical/events.json)
+- generate an ical feed to disk as a [`.ics`](https://leipeleon.github.io/bwh-ical/events.json)
+- deploy to `GitHub pages` w/ a github action cronjob, every hour
+
+Q: Why don't you use the `/events/rss.xml` feed?
+A: I discovered the existense of the feed mid project and didn't want to diverge my train of thougts. Maybe we'll use that later when `sitemap.xml` get's too big.
 
 ## update local sources for development
 
@@ -21,6 +25,19 @@ This project aims to fill that gap.
 CURRENT_DATE=$(date "+%Y-%m-%d-%H%M")
 curl https://www.burgerweeshuis.nl/ > src/index-${CURRENT_DATE}.html
 curl https://www.burgerweeshuis.nl/sitemap.xml > src/sitemap-${CURRENT_DATE}.xml
+```
+
+## local development
+
+- for your OS:
+  - install docker
+  - install ruby (3.3.6 or higher)
+
+```shell
+# Then in a terminal:
+gem install dip
+dip provision
+dip up
 ```
 
 ## LICENSE
