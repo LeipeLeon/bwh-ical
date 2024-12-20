@@ -12,29 +12,20 @@ class Parser
   attr_reader :base_url
 
   def call
-    urls.each do |url|
+    urls.map do |url|
       next unless url =~ /\/events\//
-      pp url
-      Nokogiri::HTML(URI.open(url)).css(".detail_content").each do |node|
-        pp node.to_html
-        # pp
-        detail_content(node)
-        # pp Hash[detail_content(node)]
+      Nokogiri::HTML(URI.open(url, **uri_open_headers)).css(".detail_content").map do |node|
+        Hash[detail_content(node)]
       end
-      # break
-    end
+    end.flatten
   end
 
   def detail_content(node)
-    puts "detail_content"
     node.css('.detail_item').map do |wrapper|
-      puts "  detail_item"
       wrapper.css('.detail_box').map do |box|
-        puts "    detail_box"
         box.css('> div').map do |text|
           val = text.content.gsub(/[[:space:]]+/, " ").strip
-          next if val =~ /\d+ \/ \d+ \/ \d+/
-          puts "     div: #{val}"
+          next if val =~ /\d+ ?\/ ?\d+ ?\/ ?\d+/
           val
         end.compact
       end.transpose
@@ -44,6 +35,13 @@ class Parser
   private
 
   def urls
-    Nokogiri::HTML(open(@base_url)).xpath("//urlset/url/loc").map { _1.content.strip }
+    Nokogiri::HTML(URI.open(@base_url, **uri_open_headers)).xpath("//urlset/url/loc").map { _1.content.strip }
+  end
+
+  def uri_open_headers
+    {
+      "User-Agent" => "Ruby/#{RUBY_VERSION}; Leon Berenschot; https://wendbaar.nl",
+      redirect: false
+    }
   end
 end

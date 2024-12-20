@@ -13,6 +13,6 @@ end
 require 'open-uri'
 require 'nokogiri'
 
-require 'app/parser'
+require './app/parser'
 
 Parser.call(ARGV[0])
