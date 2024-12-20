@@ -33,9 +33,13 @@ class Parser
       wrapper.css('.detail_box').map do |box|
         # puts "    detail_box"
         box.css('> div').map do |text|
-          val = text.content.gsub(/[[:space:]]+/, " ").strip
-          next if val =~ /\d+ ?\/ ?\d+ ?\/ ?\d+/
+          val = if text.children.count == 2
+            text.children.map { _1.content}.join(" ")
+          else
+            text.content.gsub(/[[:space:]]+/, " ").strip
+          end
           # puts "     div: #{val}"
+          next if val =~ /\d+ ?\/ ?\d+ ?\/ ?\d+/
           val
         end.compact
       end.transpose

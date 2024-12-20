@@ -14,7 +14,7 @@ RSpec.describe Parser do
       eindtijd: "04:00 uur",
       leeftijd: "16+",
       type: "",
-      prijs: "â\u0082¬ 7,50",
+      prijs: "€ 7,50",
       # ticket_link: "https://burgerweeshuis.stager.co/web/tickets/111436027",
     }
   }
@@ -44,7 +44,7 @@ RSpec.describe Parser do
   end
 
   describe ".detail_content" do
-    let(:node) { Nokogiri::HTML(open("src/detail_content.html")) }
+    let(:node) { Nokogiri::HTML(open("src/hitsig.html")).css(".detail_content") }
 
     it "extracts data from detail_content block" do
       expect(subject.detail_content(node)).to eql([
@@ -55,7 +55,7 @@ RSpec.describe Parser do
         [:eindtijd, "04:00 uur"],
         [:leeftijd, "16+"],
         [:type, ""],
-        [:prijs, "â\u0082¬ 7,50"]
+        [:prijs, "€ 7,50"]
       ])
     end
 
