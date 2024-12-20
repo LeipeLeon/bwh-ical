@@ -9,7 +9,7 @@ This project aims to fill that gap.
 - [x] retrieve sitemap
 - [x] walk through all urls
 - [x] visit each url to fetch date / time
-- [ ] visit each url to fetch otehr details
+- [ ] visit each url to fetch other details
 - [ ] save those details in a sqlite db
 - [ ] generate an ical feed to disk
 - [ ] deploy to gh-pages

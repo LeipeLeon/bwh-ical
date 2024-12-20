@@ -13,6 +13,7 @@ RSpec.describe Parser do
       aanvang: "23:00 uur",
       eindtijd: "04:00 uur",
       leeftijd: "16+",
+      title: "40 jaar Club: Hitsig",
       type: "",
       prijs: "€ 7,50",
       # ticket_link: "https://burgerweeshuis.stager.co/web/tickets/111436027",
@@ -57,10 +58,6 @@ RSpec.describe Parser do
         [:type, ""],
         [:prijs, "€ 7,50"]
       ])
-    end
-
-    it "extracts data from detail_content block" do
-      expect(Hash[subject.detail_content(node)]).to eql(expected)
     end
   end
 end
