@@ -16,16 +16,12 @@ iCal file: https://leipeleon.github.io/bwh-ical/events.ics
 - generate an ical feed to disk as a [`.ics`](https://leipeleon.github.io/bwh-ical/events.json)
 - deploy to `GitHub pages` w/ a github action cronjob, every hour
 
-Q: Why don't you use the `/events/rss.xml` feed?
-A: I discovered the existense of the feed mid project and didn't want to diverge my train of thougts. Maybe we'll use that later when `sitemap.xml` get's too big.
+Why don't you use the `/events/rss.xml` feed?
+: I discovered the existense of the feed mid project and didn't want to diverge my train of thougts. Maybe we'll use that later when `sitemap.xml` get's too big.
 
-## update local sources for development
-
-```shell
-CURRENT_DATE=$(date "+%Y-%m-%d-%H%M")
-curl https://www.burgerweeshuis.nl/ > src/index-${CURRENT_DATE}.html
-curl https://www.burgerweeshuis.nl/sitemap.xml > src/sitemap-${CURRENT_DATE}.xml
-```
+Why is the repo private?
+: In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days. For information on re-enabling a disabled workflow, see Disabling and enabling a workflow.
+*See: run on a [schedule](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)*
 
 ## local development
 
