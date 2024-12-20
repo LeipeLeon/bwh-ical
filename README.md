@@ -12,7 +12,7 @@ This project aims to fill that gap.
 - [x] visit each url to fetch other details
 - [x] save those details to disk
 - [x] generate an ical feed to disk
-- [ ] deploy to gh-pages
+- [x] deploy to gh-pages w/ a github action
 - [ ] cronjob every hour w/ a github action
 
 ## update local sources for development

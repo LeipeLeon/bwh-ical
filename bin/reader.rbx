@@ -24,9 +24,9 @@ url = ARGV[0] || "https://www.burgerweeshuis.nl/sitemap.xml"
 events = Parser.call(url).compact
 
 # cache to disk
-File.open("scratch/events.json", 'w') { |file| file.write(events.to_json) }
+File.open("build/events.json", 'w') { |file| file.write(events.to_json) }
 
 # build calendar
 calendar = CalendarBuilder.new(events).call
 
-File.open("scratch/events.ics", 'w') { |file| file.write(calendar) }
+File.open("build/events.ics", 'w') { |file| file.write(calendar) }
