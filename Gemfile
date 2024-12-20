@@ -1,7 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'open-uri'
-gem 'nokogiri'
+gem "open-uri"
+gem "nokogiri"
+gem "icalendar"
 
 group :development, :test do
   gem "standard"
