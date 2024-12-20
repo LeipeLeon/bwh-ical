@@ -11,7 +11,7 @@ This project aims to fill that gap.
 - [x] visit each url to fetch date / time
 - [x] visit each url to fetch other details
 - [x] save those details to disk
-- [ ] generate an ical feed to disk
+- [x] generate an ical feed to disk
 - [ ] deploy to gh-pages
 - [ ] cronjob every hour w/ a github action
 
