@@ -15,6 +15,7 @@ RSpec.describe Parser do
       leeftijd: "16+",
       title: "40 jaar Club: Hitsig",
       type: "",
+      url: "https://www.burgerweeshuis.nl/events/40-jaar-club-hitsig",
       prijs: "€ 7,50",
       # ticket_link: "https://burgerweeshuis.stager.co/web/tickets/111436027",
     }

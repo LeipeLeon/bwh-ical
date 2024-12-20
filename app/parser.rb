@@ -18,6 +18,7 @@ class Parser
       event = Nokogiri::HTML(URI.open(url, **uri_open_headers))
       title = event.css("h1.events_title")&.first.content
       details = event.css(".detail_content").map { Hash[detail_content(_1)] }
+      details[0][:url] = url
       details[0][:title] = title
       details
     end.flatten
