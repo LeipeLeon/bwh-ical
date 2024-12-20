@@ -7,7 +7,7 @@ RSpec.describe Parser do
 
   let(:expected) {
     {
-      datum: "za 21 sep 2024",
+      datum: "21-09-2024",
       locatie: "Concertzaal",
       geopend: "23:00 uur",
       aanvang: "23:00 uur",
@@ -50,7 +50,7 @@ RSpec.describe Parser do
 
     it "extracts data from detail_content block" do
       expect(subject.detail_content(node)).to eql([
-        [:datum, "za 21 sep 2024"],
+        [:datum, "21-09-2024"],
         [:locatie, "Concertzaal"],
         [:geopend, "23:00 uur"],
         [:aanvang, "23:00 uur"],

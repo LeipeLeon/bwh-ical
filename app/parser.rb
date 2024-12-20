@@ -32,13 +32,14 @@ class Parser
       wrapper.css('.detail_box').map do |box|
         # puts "    detail_box"
         box.css('> div').map do |text|
-          val = if text.children.count == 2
-            text.children.map { _1.content}.join(" ")
+          val = if text.children.count == 5 # ["21", "/", "09", "/", "2024"]
+            text.children.map { _1.content.tr("/","-") }.join("")
+          elsif text.children.count == 2    # ["za 21 sep", "2024"]
+            next
           else
             text.content.gsub(/[[:space:]]+/, " ").strip
           end
           # puts "     div: #{val}"
-          next if val =~ /\d+ ?\/ ?\d+ ?\/ ?\d+/
           val
         end.compact
       end.transpose
