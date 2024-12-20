@@ -4,14 +4,16 @@ There was a time when the [Burgerweeshuis](https://www.burgerweeshuis.nl) site h
 
 This project aims to fill that gap.
 
-## Flow
+## ROADMAP
 
-- retrieve sitemap every hour w/ a github action cronjob
-- walk through all urls
-- visit each url to fetch date / time / details
-- save those details in a sqlite db
-- generate an ical feed to disk
-- deploy to gh-pages
+- [x] retrieve sitemap
+- [x] walk through all urls
+- [x] visit each url to fetch date / time
+- [ ] visit each url to fetch otehr details
+- [ ] save those details in a sqlite db
+- [ ] generate an ical feed to disk
+- [ ] deploy to gh-pages
+- [ ] cronjob every hour w/ a github action
 
 ## update local sources for development
 
