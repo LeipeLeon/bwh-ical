@@ -42,13 +42,14 @@ class CalendarBuilder
           dtend = dtend + 1
         end
 
-        event          = Icalendar::Event.new
-        event.dtstart  = dtstart
-        event.dtend    = dtend
-        event.summary  = calendar_event[:title]
-        event.url      = calendar_event[:url]
-        event.uid      = calendar_event[:url]
-        event.location = calendar_event[:locatie] || "Burgerweeshuis, Deventer"
+        event             = Icalendar::Event.new
+        event.dtstart     = dtstart
+        event.dtend       = dtend
+        event.summary     = calendar_event[:title]
+        event.description = calendar_event[:description]
+        event.url         = calendar_event[:url]
+        event.uid         = calendar_event[:url]
+        event.location    = calendar_event[:locatie] || "Burgerweeshuis, Deventer"
         event.dtstart.ical_params = { "TZID" => 'Europe/Amsterdam' }
         event.dtend.ical_params   = { "TZID" => 'Europe/Amsterdam' }
 

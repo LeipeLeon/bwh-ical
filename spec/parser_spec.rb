@@ -16,6 +16,7 @@ RSpec.describe Parser do
       title: "40 jaar Club: Hitsig",
       type: "",
       url: "https://www.burgerweeshuis.nl/events/40-jaar-club-hitsig",
+      description: "Sep 21, 2024 – Na een afwezigheid van 1778 dagen, 254 weken, 58,4 maanden, 4,87 jaren is het in het kader van 40 jaar Burger op 21 september eindelijk tijd voor een reünie van ons meest bekendste, vuigste, smerigste, sexy'ste, feestje ooit: HITSIG!!!!",
       prijs: "€ 7,50",
       # ticket_link: "https://burgerweeshuis.stager.co/web/tickets/111436027",
     }

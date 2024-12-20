@@ -16,10 +16,15 @@ class Parser
       next unless url =~ /\/events\//
       # pp url
       event = Nokogiri::HTML(URI.open(url, **uri_open_headers))
-      title = event.css("h1.events_title")&.first.content
       details = event.css(".detail_content").map { Hash[detail_content(_1)] }
       details[0][:url] = url
+
+      title = event.css("h1.events_title")&.first.content
       details[0][:title] = title
+
+      description = event.at("meta[name='description']")&.[]("content")
+      details[0][:description] = description
+
       details
     end.flatten
   end
