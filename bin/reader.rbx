@@ -24,6 +24,9 @@ url = "https://www.burgerweeshuis.nl/sitemap.xml"
 # retrieve all events
 events = Bwh::Parser.call(url).compact
 
+# create parent directory
+FileUtils.mkdir_p("build/bwh")
+
 # cache to disk
 File.open("build/bwh/events.json", 'w') { |file| file.write(events.to_json) }
 
