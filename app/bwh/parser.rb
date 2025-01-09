@@ -24,7 +24,7 @@ class Parser
       details[0][:title] = title
 
       description = event.at("meta[name='description']")&.[]("content")
-      details[0][:description] = description
+      details[0][:description] = "Updated: #{Time.now}\n\n" << description
 
       details
     end.flatten
