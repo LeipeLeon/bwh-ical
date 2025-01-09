@@ -25,7 +25,7 @@ RSpec.describe Bwh::Parser do
   before do
     Timecop.freeze(Time.local(2025, 1, 9, 20))
     stub_request(:get, "https://www.burgerweeshuis.nl/events/40-jaar-club-hitsig")
-      .to_return(status: 200, body: File.read('src/hitsig.html'))
+      .to_return(status: 200, body: File.read('src/bwh/hitsig.html'))
   end
 
   after do
@@ -52,7 +52,7 @@ RSpec.describe Bwh::Parser do
   end
 
   describe ".detail_content" do
-    let(:node) { Nokogiri::HTML(open("src/hitsig.html")).css(".detail_content") }
+    let(:node) { Nokogiri::HTML(open("src/bwh/hitsig.html")).css(".detail_content") }
 
     it "extracts data from detail_content block" do
       expect(subject.detail_content(node)).to eql([
