@@ -1,6 +1,6 @@
 #!/usr/bin/env  ruby
 # https://deepinthecode.com/2016/03/22/using-ruby-to-get-all-links-from-a-sitemap-xml-file/
-# ./bin/reader.rbx  https://www.burgerweeshuis.nl/sitemap.xml
+# ./bin/reader.rbx
 require 'bundler/inline'
 
 gemfile do
@@ -14,19 +14,20 @@ end
 require 'open-uri'
 require 'nokogiri'
 
-require './app/parser'
-require './app/calendar_builder'
+require './app/bwh/parser'
+require './app/bwh/calendar_builder'
 require 'json'
 
-url = ARGV[0] || "https://www.burgerweeshuis.nl/sitemap.xml"
+## BWH
+url = "https://www.burgerweeshuis.nl/sitemap.xml"
 
 # retrieve all events
-events = Parser.call(url).compact
+events = Bwh::Parser.call(url).compact
 
 # cache to disk
-File.open("build/events.json", 'w') { |file| file.write(events.to_json) }
+File.open("build/bwh/events.json", 'w') { |file| file.write(events.to_json) }
 
 # build calendar
-calendar = CalendarBuilder.new(events).call
+calendar = Bwh::CalendarBuilder.new(events).call
 
-File.open("build/events.ics", 'w') { |file| file.write(calendar) }
+File.open("build/bwh/events.ics", 'w') { |file| file.write(calendar) }

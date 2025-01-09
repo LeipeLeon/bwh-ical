@@ -1,5 +1,6 @@
 require "icalendar"
 
+module Bwh
 class CalendarBuilder
   def initialize(events)
     @events = events
@@ -61,4 +62,5 @@ class CalendarBuilder
     end
     @cal.to_ical
   end
+end
 end

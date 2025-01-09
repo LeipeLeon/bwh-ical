@@ -4,8 +4,8 @@ There was a time when the [Burgerweeshuis](https://www.burgerweeshuis.nl) site h
 
 This project aims to fill that gap.
 
-JSON file: https://leipeleon.github.io/bwh-ical/events.json
-iCal file: https://leipeleon.github.io/bwh-ical/events.ics
+JSON file: https://leipeleon.github.io/bwh-ical/bwh/events.json
+iCal file: https://leipeleon.github.io/bwh-ical/bwh/events.ics
 
 ## How it works
 

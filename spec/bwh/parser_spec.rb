@@ -1,9 +1,9 @@
 require "spec_helper"
 
-require_relative "../app/parser"
+require_relative "../../app/bwh/parser"
 
-RSpec.describe Parser do
-  subject { described_class.new("src/sitemap-test.xml") }
+RSpec.describe Bwh::Parser do
+  subject { described_class.new("src/bwh/sitemap-test.xml") }
 
   let(:expected) {
     {
@@ -34,9 +34,9 @@ RSpec.describe Parser do
 
     it "parses file" do
       expect{
-        described_class.call("src/sitemap-test.xml")
+        described_class.call("src/bwh/sitemap-test.xml")
       }.not_to raise_error
-      expect(described_class.call("src/sitemap-test.xml")).to eql([expected])
+      expect(described_class.call("src/bwh/sitemap-test.xml")).to eql([expected])
     end
   end
 

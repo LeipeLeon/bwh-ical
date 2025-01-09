@@ -1,9 +1,9 @@
 
 require "spec_helper"
 
-require_relative "../app/calendar_builder.rb"
+require_relative "../../app/bwh/calendar_builder.rb"
 
-RSpec.describe CalendarBuilder do
+RSpec.describe Bwh::CalendarBuilder do
   let(:event) {
     {
       datum: "za 21 sep 2024",

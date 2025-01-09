@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 
+module Bwh
 class Parser
   def self.call(args)
     new(args).call
@@ -63,4 +64,5 @@ class Parser
       redirect: false
     }
   end
+end
 end
