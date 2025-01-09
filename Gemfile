@@ -16,4 +16,5 @@ group :development, :test do
   gem "bundle-audit"
   gem "super_diff"
   gem "webmock", "~> 3.24"
+  gem "timecop"
 end

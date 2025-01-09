@@ -1,6 +1,7 @@
 ENV["APP_ENV"] = "test"
 
 require "rspec"
+require "timecop"
 # require "rack/test"
 # require "super_diff/rspec"
 
