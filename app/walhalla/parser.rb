@@ -44,7 +44,18 @@ module Walhalla
     private
 
     def normalize_time(time_str)
-      time_str.sub("oktober", "october")
+      time_str.sub("januari", "January")
+        .sub("februari", "February")
+        .sub("maart", "March")
+        .sub("april", "April")
+        .sub("mei", "May")
+        .sub("juni", "June")
+        .sub("juli", "July")
+        .sub("augustus", "August")
+        .sub("september", "September")
+        .sub("oktober", "October")
+        .sub("november", "November")
+        .sub("december", "December")
     end
 
     def events
