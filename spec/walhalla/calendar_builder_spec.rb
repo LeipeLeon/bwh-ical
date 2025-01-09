@@ -15,7 +15,7 @@ RSpec.describe Walhalla::CalendarBuilder do
       url: "https://www.walhalla-deventer.nl/activiteit/le-privet-social-2/"
     }
   }
-  let(:json) { JSON.parse(File.read('src/walhalla/events.json'), symbolize_names: true) }
+  let(:json) { JSON.parse(File.read('spec/fixtures/walhalla/events.json'), symbolize_names: true) }
 
   it "creates an ical feed" do
     expect {

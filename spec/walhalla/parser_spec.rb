@@ -3,7 +3,7 @@ require "spec_helper"
 require_relative "../../app/walhalla/parser"
 
 RSpec.describe Walhalla::Parser do
-  subject { described_class.new(["src/walhalla/upcoming_one.html"]) }
+  subject { described_class.new(["spec/fixtures/walhalla/upcoming_one.html"]) }
 
   let(:expected) {
     {
@@ -32,9 +32,9 @@ RSpec.describe Walhalla::Parser do
 
     it "parses file" do
       expect{
-        described_class.call(["src/walhalla/upcoming_one.html"])
+        described_class.call(["spec/fixtures/walhalla/upcoming_one.html"])
       }.not_to raise_error
-      expect(described_class.call(["src/walhalla/upcoming_one.html"])).to eql([expected])
+      expect(described_class.call(["spec/fixtures/walhalla/upcoming_one.html"])).to eql([expected])
     end
   end
 
