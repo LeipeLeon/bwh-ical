@@ -13,7 +13,6 @@ group :development, :test do
   gem "guard"
   gem "guard-rspec"
   gem "guard-bundler", require: false
-  gem "mock_redis"
   gem "bundle-audit"
   gem "super_diff"
   gem "webmock", "~> 3.24"
