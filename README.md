@@ -32,9 +32,15 @@ If you want acces, [drop me a line!](email:leon@wendbaar.nl)
 
 ```shell
 # Then in a terminal:
+
+# Install dip a.k.a Docer Interaction Program (https://github.com/bibendi/dip)
 gem install dip
+
+# Build containers
 dip provision
-dip up
+
+# execute the script
+dip reader
 ```
 
 ## LICENSE
