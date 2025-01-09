@@ -50,7 +50,7 @@ class CalendarBuilder
         event.description = calendar_event[:description]
         event.url         = calendar_event[:url]
         event.uid         = calendar_event[:url]
-        event.location    = calendar_event[:locatie] || "Burgerweeshuis, Deventer"
+        event.location    = calendar_event[:locatie] || "Walhalla, Deventer"
         event.dtstart.ical_params = { "TZID" => 'Europe/Amsterdam' }
         event.dtend.ical_params   = { "TZID" => 'Europe/Amsterdam' }
 
