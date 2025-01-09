@@ -25,10 +25,10 @@ interaction:
     command: bundle
     compose_run_options: [no-deps]
 
-  rake:
-    description: Run Rake commands
+  reader:
+    description: Run reader command
     service: runner
-    command: bundle exec rake
+    command: ./bin/reader.rbx
 
   guard:
     description: Run red-green-red refactor loop using guard
