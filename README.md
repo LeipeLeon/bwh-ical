@@ -24,6 +24,9 @@ The following sites have no proper iCal feeds (yet) so I provide them for you fo
   - `JSON` file: <https://leipeleon.github.io/bwh-ical/walhalla/events.json>
   - `iCal` file: <https://leipeleon.github.io/bwh-ical/walhalla/events.ics>
 
+Todo (e.g wishlist):
+
+- <https://bijbuitenpost.nl/agenda/>
 
 ## How it works
 
