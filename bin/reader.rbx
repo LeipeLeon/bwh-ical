@@ -14,8 +14,6 @@ end
 require 'open-uri'
 require 'nokogiri'
 require 'json'
-require 'enhanced_errors'
-require 'awesome_print' # Optional, for better output
 
 require './app/walhalla/parser'
 require './app/walhalla/calendar_builder'
