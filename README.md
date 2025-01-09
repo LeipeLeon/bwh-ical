@@ -1,6 +1,6 @@
 # iCal feeds from various venues in Deventer
 
-> [!INFO]
+> [!NOTE]
 > Why is the repo private?
 > : In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days. For information on re-enabling a disabled workflow, see Disabling and enabling a workflow.
 If you want acces, [drop me a line!](email:leon@wendbaar.nl)
@@ -27,20 +27,15 @@ The following sites have no proper iCal feeds (yet) so I provide them for you fo
 
 ## How it works
 
-### Sitemap BWH
+### Events page BWH
 
-This is a quite hard one: there is no proper sitemap.xml w/ lastmod/changefreq dates so I have to pound the webserver for each event entry in the `sitemap.xml` Just scraping the index page isn't an option either b/c it has an infinite scroll.
+This takes extra work: Although there is an upcoming page <https://www.burgerweeshuis.nl/programma> which list all upcoming events, the info is not complete. So I have to pound the webserver for each event entry in the page, this also takes time..... Scraping the index page isn't an option b/c it has an infinite scroll (whyyyyyyyyyy).
 
-- Retreive data from the <https://www.burgerweeshuis.nl/sitemap.xml>
-- filter out events URL's (`/events/`)
+- Retreive data from the <https://www.burgerweeshuis.nl/programma>
 - visit each url to fetch date / time / other details (the site takes another hit)
 - save events to disk as a [`.json`](https://leipeleon.github.io/bwh-ical/bwh/events.json)
 - generate an ical feed to disk as a [`.ics`](https://leipeleon.github.io/bwh-ical/bwh/events.json)
 - deploy to `GitHub pages` w/ a github action cronjob, every hour
-
-Why don't you use the `/events/rss.xml` feed?
-: I discovered the existense of the feed mid project and didn't want to diverge my train of thougts. Maybe we'll use that later when `sitemap.xml` get's too big.
-
 
 ### Events page Walhalla
 

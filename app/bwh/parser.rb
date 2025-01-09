@@ -14,8 +14,6 @@ class Parser
 
   def call
     urls.map do |url|
-      next unless url =~ /\/events\//
-      # pp url
       event = Nokogiri::HTML(URI.open(url, **uri_open_headers))
       details = event.css(".detail_content").map { Hash[detail_content(_1)] }
       details[0][:url] = url
@@ -55,7 +53,9 @@ class Parser
   private
 
   def urls
-    Nokogiri::HTML(URI.open(@base_url, **uri_open_headers)).xpath("//urlset/url/loc").map { _1.content.strip }
+    Nokogiri::HTML(URI.open(@base_url, **uri_open_headers)).css(".events_wrapper .events_item .events_content").map {
+      "https://www.burgerweeshuis.nl%s" % _1.attribute("href").content
+    }
   end
 
   def uri_open_headers

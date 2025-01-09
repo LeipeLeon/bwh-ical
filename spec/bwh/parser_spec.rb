@@ -3,7 +3,7 @@ require "spec_helper"
 require_relative "../../app/bwh/parser"
 
 RSpec.describe Bwh::Parser do
-  subject { described_class.new("src/bwh/sitemap-test.xml") }
+  subject { described_class.new("src/bwh/programma.html") }
 
   let(:expected) {
     {
@@ -15,7 +15,7 @@ RSpec.describe Bwh::Parser do
       leeftijd: "16+",
       title: "40 jaar Club: Hitsig",
       type: "",
-      url: "https://www.burgerweeshuis.nl/events/40-jaar-club-hitsig",
+      url: "https://www.burgerweeshuis.nl/events/boogie-nights-copy",
       description: "Updated: 09-01-2025 20:00\n\nSep 21, 2024 – Na een afwezigheid van 1778 dagen, 254 weken, 58,4 maanden, 4,87 jaren is het in het kader van 40 jaar Burger op 21 september eindelijk tijd voor een reünie van ons meest bekendste, vuigste, smerigste, sexy'ste, feestje ooit: HITSIG!!!!",
       prijs: "€ 7,50",
       # ticket_link: "https://burgerweeshuis.stager.co/web/tickets/111436027",
@@ -24,7 +24,7 @@ RSpec.describe Bwh::Parser do
 
   before do
     Timecop.freeze(Time.local(2025, 1, 9, 20))
-    stub_request(:get, "https://www.burgerweeshuis.nl/events/40-jaar-club-hitsig")
+    stub_request(:get, /https:\/\/www.burgerweeshuis.nl\/events/)
       .to_return(status: 200, body: File.read('src/bwh/hitsig.html'))
   end
 
@@ -39,9 +39,9 @@ RSpec.describe Bwh::Parser do
 
     it "parses file" do
       expect{
-        described_class.call("src/bwh/sitemap-test.xml")
+        described_class.call("src/bwh/programma.html")
       }.not_to raise_error
-      expect(described_class.call("src/bwh/sitemap-test.xml")).to eql([expected])
+      expect(described_class.call("src/bwh/programma.html").first).to eql(expected)
     end
   end
 

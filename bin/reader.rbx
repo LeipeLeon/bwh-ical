@@ -44,7 +44,7 @@ require './app/bwh/parser'
 require './app/bwh/calendar_builder'
 
 ## BWH
-url = "https://www.burgerweeshuis.nl/sitemap.xml"
+url = "https://www.burgerweeshuis.nl/programma"
 
 # retrieve all events
 events = Bwh::Parser.call(url).compact
