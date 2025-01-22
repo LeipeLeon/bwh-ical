@@ -1,6 +1,5 @@
 require "icalendar"
 
-module Walhalla
 class CalendarBuilder
   def initialize(events)
     @events = events
@@ -50,7 +49,7 @@ class CalendarBuilder
         event.description = calendar_event[:description]
         event.url         = calendar_event[:url]
         event.uid         = calendar_event[:url]
-        event.location    = calendar_event[:locatie] || "Walhalla, Deventer"
+        event.location    = calendar_event[:locatie]
         event.dtstart.ical_params = { "TZID" => 'Europe/Amsterdam' }
         event.dtend.ical_params   = { "TZID" => 'Europe/Amsterdam' }
 
@@ -62,5 +61,4 @@ class CalendarBuilder
     end
     @cal.to_ical
   end
-end
 end

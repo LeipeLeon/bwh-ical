@@ -15,10 +15,10 @@ require 'open-uri'
 require 'nokogiri'
 require 'json'
 
-require './app/walhalla/parser'
-require './app/walhalla/calendar_builder'
+require './app/calendar_builder'
 
 ## Walhalla
+require './app/walhalla/parser'
 urls = [
   "https://www.walhalla-deventer.nl/activiteiten/afgelopen/?action=tribe_list&tribe_paged=1",
   "https://www.walhalla-deventer.nl/activiteiten/toekomstig/"
@@ -34,14 +34,12 @@ FileUtils.mkdir_p("build/walhalla")
 File.open("build/walhalla/events.json", 'w') { |file| file.write(events.to_json) }
 
 # build calendar
-calendar = Walhalla::CalendarBuilder.new(events).call
+calendar = CalendarBuilder.new(events).call
 
 File.open("build/walhalla/events.ics", 'w') { |file| file.write(calendar) }
 
-require './app/bwh/parser'
-require './app/bwh/calendar_builder'
-
 ## BWH
+require './app/bwh/parser'
 url = "https://www.burgerweeshuis.nl/programma"
 
 # retrieve all events
@@ -54,6 +52,6 @@ FileUtils.mkdir_p("build/bwh")
 File.open("build/bwh/events.json", 'w') { |file| file.write(events.to_json) }
 
 # build calendar
-calendar = Bwh::CalendarBuilder.new(events).call
+calendar = CalendarBuilder.new(events).call
 
 File.open("build/bwh/events.ics", 'w') { |file| file.write(calendar) }

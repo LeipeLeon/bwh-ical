@@ -16,6 +16,7 @@ class Parser
     urls.map do |url|
       event = Nokogiri::HTML(URI.open(url, **uri_open_headers))
       details = event.css(".detail_content").map { Hash[detail_content(_1)] }
+      details[0][:locatie] ||= "Burgerweeshuis, Deventer"
       details[0][:url] = url
 
       title = event.css("h1.events_title")&.first.content

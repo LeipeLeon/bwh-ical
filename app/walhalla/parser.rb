@@ -23,6 +23,7 @@ module Walhalla
           details[:geopend] = time.strftime("%H:%M uur")
           details[:aanvang] = time.strftime("%H:%M uur")
           details[:eindtijd] = (time + 4.0/24).strftime("%H:%M uur")
+          details[:locatie] = "Walhalla, Deventer"
         end
 
         details[:title] = event.css(".summary")&.first.content.strip

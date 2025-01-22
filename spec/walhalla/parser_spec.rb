@@ -12,6 +12,7 @@ RSpec.describe Walhalla::Parser do
       description: "Updated: 09-01-2025 20:00",
       eindtijd: "00:00 uur",
       geopend: "20:00 uur",
+      locatie: "Walhalla, Deventer",
       title: "Le Privet Social",
       url: "https://www.walhalla-deventer.nl/activiteit/le-privet-social-2/"
     }

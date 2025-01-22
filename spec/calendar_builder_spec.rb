@@ -1,9 +1,9 @@
 
 require "spec_helper"
 
-require_relative "../../app/walhalla/calendar_builder.rb"
+require_relative "../app/calendar_builder.rb"
 
-RSpec.describe Walhalla::CalendarBuilder do
+RSpec.describe CalendarBuilder do
   let(:event) {
     {
       aanvang: "20:00 uur",
