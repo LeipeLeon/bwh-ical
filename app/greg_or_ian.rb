@@ -3,7 +3,7 @@ require "icalendar"
 class GregOrIan
   GREG_OR_IAN = ["Ian", "Greg"]
 
-  def call(width = 10)
+  def call(width = 21)
     cal = Icalendar::Calendar.new
     cal.prodid = "-//LeipeLeon//greg-or-ian-generator/"
     cal.append_custom_property "X_APPLE_CALENDAR_COLOR", "#BADA55"
