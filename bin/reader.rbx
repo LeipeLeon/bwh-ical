@@ -17,6 +17,23 @@ require 'json'
 
 require './app/calendar_builder'
 
+## Burnside
+require './app/burnside/parser'
+urls = ["https://www.burnside.nl/agenda/"]
+
+# retrieve all events
+events = Burnside::Parser.call(urls).compact
+
+# create parent directory
+FileUtils.mkdir_p("build/burnside")
+
+# cache to disk
+File.open("build/burnside/events.json", 'w') { |file| file.write(events.to_json) }
+
+# build calendar
+calendar = CalendarBuilder.new(events).call
+
+File.open("build/burnside/events.ics", 'w') { |file| file.write(calendar) }
 ## Walhalla
 require './app/walhalla/parser'
 urls = [

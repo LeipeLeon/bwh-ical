@@ -1,4 +1,5 @@
 class Parser
+  CUTOFF = (DateTime.now - 14) # minus 14 days
 
   private
 
