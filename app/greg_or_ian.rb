@@ -1,7 +1,7 @@
 require "icalendar"
 
 class GregOrIan
-  GREG_OR_IAN = ["Greg", "Ian"]
+  GREG_OR_IAN = ["Ian", "Greg"]
 
   def call(width = 10)
     cal = Icalendar::Calendar.new
