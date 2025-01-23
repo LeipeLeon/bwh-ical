@@ -17,4 +17,5 @@ group :development, :test do
   gem "super_diff"
   gem "webmock", "~> 3.24"
   gem "timecop"
+  gem "base64"
 end

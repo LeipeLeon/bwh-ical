@@ -9,6 +9,7 @@ gemfile do
   gem 'open-uri'
   gem 'nokogiri'
   gem "icalendar"
+  gem "base64"
 end
 
 require 'open-uri'

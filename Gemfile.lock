@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.2)
     attr_extras (7.1.0)
+    base64 (0.2.0)
     bigdecimal (3.1.8)
     bundle-audit (0.1.0)
       bundler-audit
@@ -166,6 +167,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64
   bundle-audit
   guard
   guard-bundler
