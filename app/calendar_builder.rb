@@ -6,8 +6,8 @@ class CalendarBuilder
   end
 
   def call
-    @cal = Icalendar::Calendar.new
-    @cal.timezone do |t|
+    cal = Icalendar::Calendar.new
+    cal.timezone do |t|
       t.tzid = "Europe/Amsterdam"
 
       t.daylight do |d|
@@ -60,12 +60,12 @@ class CalendarBuilder
         event.dtstart.ical_params = { "TZID" => 'Europe/Amsterdam' }
         event.dtend.ical_params   = { "TZID" => 'Europe/Amsterdam' }
 
-        @cal.add_event(event)
+        cal.add_event(event)
       rescue
         pp calendar_event
         raise
       end
     end
-    @cal.to_ical
+    cal.to_ical
   end
 end
