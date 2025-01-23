@@ -23,9 +23,9 @@ module Walhalla
           details[:geopend] = time.strftime("%H:%M uur")
           details[:aanvang] = time.strftime("%H:%M uur")
           details[:eindtijd] = (time + 4.0/24).strftime("%H:%M uur")
-          details[:locatie] = "Walhalla, Deventer"
         end
 
+        details[:locatie] = "Walhalla, Deventer"
         details[:title] = event.css(".summary")&.first.content.strip
         details[:url] = event.css(".url")&.first.attribute("href").content
         details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
