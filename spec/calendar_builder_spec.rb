@@ -100,8 +100,8 @@ RSpec.describe CalendarBuilder do
         BEGIN:VEVENT
         DTSTAMP:20250109T200000Z
         UID:https://www.burnside.nl/agenda/sneeuwtrip-2025-natuurlijk-naar-flaine/
-        DTSTART;TZID=Europe/Amsterdam:20250315T000000
-        DTEND;TZID=Europe/Amsterdam:20250316T000000
+        DTSTART;TZID=Europe/Amsterdam;VALUE=DATE:20250315
+        DTEND;TZID=Europe/Amsterdam;VALUE=DATE:20250316
         DESCRIPTION:Updated: 23-01-2025 11:41
         LOCATION:Burnside Park & Shop\\, Sint Olafstraat 6
         SUMMARY:SNEEUWTRIP 2025 FLAINE

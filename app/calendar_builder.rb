@@ -43,12 +43,15 @@ class CalendarBuilder
         end
 
         event             = Icalendar::Event.new
-        unless calendar_event[:geopend]
+        if calendar_event[:geopend]
+          event.dtstart     = Icalendar::Values::DateTime.new(dtstart)
+          event.dtend       = Icalendar::Values::DateTime.new(dtend)
+        else
           event.transp = 'TRANSPARENT'
           dtend = dtstart + 1
+          event.dtstart     = Icalendar::Values::Date.new(dtstart)
+          event.dtend       = Icalendar::Values::Date.new(dtend)
         end
-        event.dtstart     = dtstart
-        event.dtend       = dtend
         event.summary     = calendar_event[:title]
         event.description = calendar_event[:description]
         event.url         = calendar_event[:url]
