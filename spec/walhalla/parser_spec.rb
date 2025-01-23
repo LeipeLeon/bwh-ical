@@ -27,9 +27,7 @@ RSpec.describe Walhalla::Parser do
   end
 
   describe ".call" do
-    pending "responds to .call" do
-      expect(subject).to respond_to?(:call)
-    end
+    it { is_expected.to respond_to(:call) }
 
     it "parses file" do
       expect{
