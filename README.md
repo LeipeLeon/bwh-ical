@@ -30,6 +30,10 @@ The following sites have no proper iCal feeds (yet) so I provide them for you fo
   - `iCal` file: <https://leipeleon.github.io/bwh-ical/burnside/events.ics>
   _NOTE: Start / end times are estimates because there is no easy way to retrieve that information from the text (there is no HTML element with that information). Could this be my first opportunity to use AI? ლ(ಠ益ಠლ)_
 
+- GregOrIan calendar
+  - `iCal` file: <https://leipeleon.github.io/bwh-ical/greg_or_ian/events.ics>
+  _inspired by <https://mikecoats.com/the-greg-or-ian-calendar/>_
+
 Todo (e.g wishlist):
 
 - <https://bijbuitenpost.nl/agenda/>

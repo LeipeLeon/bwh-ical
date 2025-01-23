@@ -17,6 +17,12 @@ require 'nokogiri'
 require 'json'
 
 require './app/calendar_builder'
+require './app/greg_or_ian.rb'
+
+# create parent directory
+FileUtils.mkdir_p("build/greg_or_ian")
+
+File.open("build/greg_or_ian/events.ics", 'w') { |file| file.write(GregOrIan.new.call) }
 
 ## Burnside
 require './app/burnside/parser'
