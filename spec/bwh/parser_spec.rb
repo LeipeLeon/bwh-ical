@@ -3,7 +3,7 @@ require "spec_helper"
 require_relative "../../app/bwh/parser"
 
 RSpec.describe Bwh::Parser do
-  subject { described_class.new("spec/fixtures/bwh/programma.html") }
+  subject { described_class.new(["spec/fixtures/bwh/programma.html"]) }
 
   let(:expected) {
     {
@@ -37,9 +37,9 @@ RSpec.describe Bwh::Parser do
 
     it "parses file" do
       expect{
-        described_class.call("spec/fixtures/bwh/programma.html")
+        described_class.call(["spec/fixtures/bwh/programma.html"])
       }.not_to raise_error
-      expect(described_class.call("spec/fixtures/bwh/programma.html").first).to eql(expected)
+      expect(described_class.call(["spec/fixtures/bwh/programma.html"]).first).to eql(expected)
     end
   end
 

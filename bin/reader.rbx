@@ -64,10 +64,10 @@ File.open("build/walhalla/events.ics", 'w') { |file| file.write(calendar) }
 
 ## BWH
 require './app/bwh/parser'
-url = "https://www.burgerweeshuis.nl/programma"
+urls = ["https://www.burgerweeshuis.nl/programma"]
 
 # retrieve all events
-events = Bwh::Parser.call(url).compact
+events = Bwh::Parser.call(urls).compact
 
 # create parent directory
 FileUtils.mkdir_p("build/bwh")

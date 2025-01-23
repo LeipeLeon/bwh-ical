@@ -4,15 +4,6 @@ require './app/parser'
 
 module Bwh
   class Parser < ::Parser
-    def self.call(args)
-      new(args).call
-    end
-
-    def initialize(args)
-      @base_url = args
-    end
-    attr_reader :base_url
-
     def call
       urls.map do |url|
         event = Nokogiri::HTML(URI.open(url, **uri_open_headers))
@@ -55,9 +46,11 @@ module Bwh
     private
 
     def urls
-      Nokogiri::HTML(URI.open(@base_url, **uri_open_headers)).css(".events_wrapper .events_item .events_content").map {
-        "https://www.burgerweeshuis.nl%s" % _1.attribute("href").content
-      }
+      @base_urls.map do |url|
+        Nokogiri::HTML(URI.open(url, **uri_open_headers)).css(".events_wrapper .events_item .events_content").map {
+          "https://www.burgerweeshuis.nl%s" % _1.attribute("href").content
+        }
+      end.flatten
     end
   end
 end

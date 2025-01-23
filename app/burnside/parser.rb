@@ -4,15 +4,6 @@ require './app/parser'
 
 module Burnside
   class Parser < ::Parser
-    def self.call(args)
-      new(args).call
-    end
-
-    def initialize(args)
-      @base_urls = args
-    end
-    attr_reader :base_urls
-
     def call
       events.map do |event|
         details = {}

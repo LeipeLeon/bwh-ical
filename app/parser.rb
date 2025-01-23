@@ -1,6 +1,15 @@
 class Parser
   CUTOFF = (DateTime.now - 14) # minus 14 days
 
+  def self.call(args)
+    new(args).call
+  end
+
+  def initialize(args)
+    @base_urls = args
+  end
+  attr_reader :base_urls
+
   private
 
   def normalize_time(time_str)
@@ -16,12 +25,6 @@ class Parser
       .sub("oktober", "October")
       .sub("november", "November")
       .sub("december", "December")
-  end
-
-  def events
-    @base_urls.map do |url|
-      Nokogiri::HTML(URI.open(url, **uri_open_headers)).xpath("//article").map { _1 }
-    end.flatten
   end
 
   def uri_open_headers
