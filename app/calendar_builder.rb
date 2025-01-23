@@ -31,11 +31,11 @@ class CalendarBuilder
       begin
         dtstart = DateTime.parse([
           calendar_event[:datum],
-          calendar_event[:geopend].sub(" uur", "")
+          calendar_event[:geopend]&.sub(" uur", "")
         ].join(" "))
         dtend = DateTime.parse([
           calendar_event[:datum],
-          calendar_event[:eindtijd].sub(" uur", "")
+          calendar_event[:eindtijd]&.sub(" uur", "")
         ].join(" "))
 
         if dtend < dtstart
@@ -43,6 +43,10 @@ class CalendarBuilder
         end
 
         event             = Icalendar::Event.new
+        unless calendar_event[:geopend]
+          event.transp = 'TRANSPARENT'
+          dtend = dtstart + 1
+        end
         event.dtstart     = dtstart
         event.dtend       = dtend
         event.summary     = calendar_event[:title]
