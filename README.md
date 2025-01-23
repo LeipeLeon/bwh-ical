@@ -1,7 +1,3 @@
----
-title: iCal feeds from various venues in Deventer
----
-
 # iCal feeds from various venues in Deventer
 
 > [!NOTE]
