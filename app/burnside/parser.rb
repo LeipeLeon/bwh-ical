@@ -20,9 +20,9 @@ module Burnside
           date = DateTime.parse(date_str)
           next if CUTOFF > date
           details[:datum] = date.strftime("%d-%m-%Y")
-          details[:geopend] = "20:00 uur" # date.strftime("%H:%M uur")
-          details[:aanvang] = "20:00 uur" # date.strftime("%H:%M uur")
-          details[:eindtijd] = "23:59 uur" # (date + 4.0/24).strftime("%H:%M uur")
+          # details[:geopend] = "20:00 uur" # date.strftime("%H:%M uur")
+          # details[:aanvang] = "20:00 uur" # date.strftime("%H:%M uur")
+          # details[:eindtijd] = "23:59 uur" # (date + 4.0/24).strftime("%H:%M uur")
           details[:title] = event.css(".entry-title [itemprop=name]")&.first&.content&.strip
           details[:url] = event.css("[itemprop=url]")&.first.attribute("href").content
           details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"

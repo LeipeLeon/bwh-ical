@@ -7,11 +7,8 @@ RSpec.describe Burnside::Parser do
 
   let(:expected) {
     {
-      aanvang: "20:00 uur",
       datum: "24-01-2025",
       description: "Updated: 09-01-2025 20:00",
-      eindtijd: "23:59 uur",
-      geopend: "20:00 uur",
       locatie: "Burnside Park & Shop, Sint Olafstraat 6",
       title: "Valse start",
       url: "https://www.burnside.nl/agenda/__trashed/"
