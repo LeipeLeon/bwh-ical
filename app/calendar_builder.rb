@@ -7,6 +7,7 @@ class CalendarBuilder
 
   def call
     cal = Icalendar::Calendar.new
+    cal.prodid = "https://leipeleon.github.io/bwh-ical"
     cal.timezone do |t|
       t.tzid = "Europe/Amsterdam"
 

@@ -30,7 +30,7 @@ RSpec.describe CalendarBuilder do
     expect(described_class.new([event]).call.gsub("\r\n","\n")).to eql <<~EVENT
       BEGIN:VCALENDAR
       VERSION:2.0
-      PRODID:icalendar-ruby
+      PRODID:https://leipeleon.github.io/bwh-ical
       CALSCALE:GREGORIAN
       BEGIN:VTIMEZONE
       TZID:Europe/Amsterdam
@@ -78,7 +78,7 @@ RSpec.describe CalendarBuilder do
       expect(described_class.new([event]).call.gsub("\r\n","\n")).to eql <<~EVENT
         BEGIN:VCALENDAR
         VERSION:2.0
-        PRODID:icalendar-ruby
+        PRODID:https://leipeleon.github.io/bwh-ical
         CALSCALE:GREGORIAN
         BEGIN:VTIMEZONE
         TZID:Europe/Amsterdam
