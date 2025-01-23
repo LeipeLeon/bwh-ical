@@ -13,6 +13,7 @@ Merely to scratch my own itch: I just want to have ical feeds from my favorite v
 There are venues who have a proper iCal feed:
 
 - `Meneer de Perifeer`: <https://perifeer.org/events.ics>
+- `De Hip`: <https://www.dehip.nl/evenementen/?ical=1>
 
 The following sites have no proper iCal feeds (yet) so I provide them for you for free, e.g: "Free as in beer"[^free-as-in-beer]
 
