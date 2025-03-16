@@ -37,7 +37,7 @@ module Bwh
               text.content.gsub(/[[:space:]]+/, " ").strip
             end
             # puts "     div: #{val}"
-            val
+            val.gsub(".", ":")
           end.compact
         end.transpose
       end.flatten(1).map {|k,v| [k.sub(":","").to_sym, v]}

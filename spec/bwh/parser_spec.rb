@@ -64,5 +64,22 @@ RSpec.describe Bwh::Parser do
         [:prijs, "€ 7,50"]
       ])
     end
+
+    context "wrong rendered times (e.g: 13.45 instead of 13:45)" do
+      let(:node) { Nokogiri::HTML(open("spec/fixtures/bwh/cursiefjes.html")).css(".detail_content") }
+
+      it "extracts data from detail_content block" do
+        expect(subject.detail_content(node)).to eql([
+          [:datum, "16-03-2025"],
+          [:locatie, "Burgercafé"],
+          [:geopend, "13:45 uur"],
+          [:aanvang, "14:00 uur"],
+          [:eindtijd, "17:30 uur"],
+          [:leeftijd, "alle"],
+          [:type, ""],
+          [:prijs, ""]
+        ])
+      end
+    end
   end
 end
