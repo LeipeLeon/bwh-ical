@@ -22,7 +22,7 @@ module Burnside
           titles = event.css("a").map { _1.attribute("title")}.compact
           details[:title] = titles.first.content # event.css(".entry-title [itemprop=name]")&.first&.content&.strip || event.css(".entry-title")&.first&.content&.strip
           details[:url] = event.css("a")&.first&.attribute("href")&.content
-          details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
+          # details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
           details[:locatie] = [
             event.css("[itemprop=location] [itemprop=name]")&.first&.content&.strip,
             event.css("[itemprop=location] [itemprop=streetAddress]")&.first&.content&.strip,

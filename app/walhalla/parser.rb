@@ -20,7 +20,7 @@ module Walhalla
         details[:locatie] = "Walhalla, Deventer"
         details[:title] = event.css(".summary")&.first.content.strip
         details[:url] = event.css(".url")&.first.attribute("href").content
-        details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
+        # details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
         # locatie: "Concertzaal",
         # eindtijd: "04:00 uur",
         # leeftijd: "16+",

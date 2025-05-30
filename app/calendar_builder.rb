@@ -54,7 +54,7 @@ class CalendarBuilder
           event.dtend       = Icalendar::Values::Date.new(dtend)
         end
         event.summary     = calendar_event[:title]
-        event.description = calendar_event[:description]
+        event.description = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}\n\n" << calendar_event[:description].to_s
         event.url         = calendar_event[:url]
         event.uid         = calendar_event[:url]
         event.location    = calendar_event[:locatie]
