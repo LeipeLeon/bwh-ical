@@ -25,61 +25,74 @@ FileUtils.mkdir_p("build/greg_or_ian")
 File.open("build/greg_or_ian/events.ics", 'w') { |file| file.write(GregOrIan.new.call) }
 
 ## Burnside
-puts "Burnside: Parsing"
-require './app/burnside/parser'
-urls = ["https://www.burnside.nl/agenda/"]
+begin
+  puts "Burnside: Parsing"
+  require './app/burnside/parser'
+  urls = ["https://www.burnside.nl/agenda/"]
 
-# retrieve all events
-events = Burnside::Parser.call(urls).compact
+  # retrieve all events
+  events = Burnside::Parser.call(urls).compact
 
-# create parent directory
-FileUtils.mkdir_p("build/burnside")
+  # create parent directory
+  FileUtils.mkdir_p("build/burnside")
 
-# cache to disk
-File.open("build/burnside/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
+  # cache to disk
+  File.open("build/burnside/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
-# build calendar
-calendar = CalendarBuilder.new(events).call
+  # build calendar
+  calendar = CalendarBuilder.new(events).call
 
-File.open("build/burnside/events.ics", 'w') { |file| file.write(calendar) }
+  File.open("build/burnside/events.ics", 'w') { |file| file.write(calendar) }
+rescue Net::OpenTimeout
+  puts "Timeout while trying to fetch Burnside events. Skipping."
+end
 
 ## Walhalla
-puts "Walhalla: Parsing"
-require './app/walhalla/parser'
-urls = [
-  "https://www.walhalla-deventer.nl/activiteiten/afgelopen/?action=tribe_list&tribe_paged=1",
-  "https://www.walhalla-deventer.nl/activiteiten/toekomstig/"
-]
+begin
+  puts "Walhalla: Parsing"
+  require './app/walhalla/parser'
+  urls = [
+    "https://www.walhalla-deventer.nl/activiteiten/afgelopen/?action=tribe_list&tribe_paged=1",
+    "https://www.walhalla-deventer.nl/activiteiten/toekomstig/"
+  ]
 
-# retrieve all events
-events = Walhalla::Parser.call(urls).compact
+  # retrieve all events
+  events = Walhalla::Parser.call(urls).compact
 
-# create parent directory
-FileUtils.mkdir_p("build/walhalla")
+  # create parent directory
+  FileUtils.mkdir_p("build/walhalla")
 
-# cache to disk
-File.open("build/walhalla/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
+  # cache to disk
+  File.open("build/walhalla/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
-# build calendar
-calendar = CalendarBuilder.new(events).call
+  # build calendar
+  calendar = CalendarBuilder.new(events).call
 
-File.open("build/walhalla/events.ics", 'w') { |file| file.write(calendar) }
+  File.open("build/walhalla/events.ics", 'w') { |file| file.write(calendar) }
+
+rescue Net::OpenTimeout
+  puts "Timeout while trying to fetch Walhalla events. Skipping."
+end
 
 ## BWH
-puts "BWH: Parsing"
-require './app/bwh/parser'
-urls = ["https://www.burgerweeshuis.nl/programma"]
+begin
+  puts "BWH: Parsing"
+  require './app/bwh/parser'
+  urls = ["https://www.burgerweeshuis.nl/programma"]
 
-# retrieve all events
-events = Bwh::Parser.call(urls).compact
+  # retrieve all events
+  events = Bwh::Parser.call(urls).compact
 
-# create parent directory
-FileUtils.mkdir_p("build/bwh")
+  # create parent directory
+  FileUtils.mkdir_p("build/bwh")
 
-# cache to disk
-File.open("build/bwh/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
+  # cache to disk
+  File.open("build/bwh/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
-# build calendar
-calendar = CalendarBuilder.new(events).call
+  # build calendar
+  calendar = CalendarBuilder.new(events).call
 
-File.open("build/bwh/events.ics", 'w') { |file| file.write(calendar) }
+  File.open("build/bwh/events.ics", 'w') { |file| file.write(calendar) }
+rescue Net::OpenTimeout
+  puts "Timeout while trying to fetch BWH events. Skipping."
+end
