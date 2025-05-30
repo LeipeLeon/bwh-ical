@@ -51,6 +51,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
           path: build/
+      - name: Commit and push changes
+        run: |-
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "BerenBot"
+            git config user.email "bot@wendbaar.nl"
+            git add -f build/*json
+            timestamp=$(date -u)
+            git commit -m "Latest data: ${timestamp}" || exit 0
+            git push origin main
+          fi
 
   # Deployment job
   deploy:
