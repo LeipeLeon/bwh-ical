@@ -36,7 +36,7 @@ events = Burnside::Parser.call(urls).compact
 FileUtils.mkdir_p("build/burnside")
 
 # cache to disk
-File.open("build/burnside/events.json", 'w') { |file| file.write(events.to_json) }
+File.open("build/burnside/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
 # build calendar
 calendar = CalendarBuilder.new(events).call
@@ -58,7 +58,7 @@ events = Walhalla::Parser.call(urls).compact
 FileUtils.mkdir_p("build/walhalla")
 
 # cache to disk
-File.open("build/walhalla/events.json", 'w') { |file| file.write(events.to_json) }
+File.open("build/walhalla/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
 # build calendar
 calendar = CalendarBuilder.new(events).call
@@ -77,7 +77,7 @@ events = Bwh::Parser.call(urls).compact
 FileUtils.mkdir_p("build/bwh")
 
 # cache to disk
-File.open("build/bwh/events.json", 'w') { |file| file.write(events.to_json) }
+File.open("build/bwh/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
 
 # build calendar
 calendar = CalendarBuilder.new(events).call
