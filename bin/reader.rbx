@@ -25,6 +25,7 @@ FileUtils.mkdir_p("build/greg_or_ian")
 File.open("build/greg_or_ian/events.ics", 'w') { |file| file.write(GregOrIan.new.call) }
 
 ## Burnside
+puts "Burnside: Parsing"
 require './app/burnside/parser'
 urls = ["https://www.burnside.nl/agenda/"]
 
@@ -41,7 +42,9 @@ File.open("build/burnside/events.json", 'w') { |file| file.write(events.to_json)
 calendar = CalendarBuilder.new(events).call
 
 File.open("build/burnside/events.ics", 'w') { |file| file.write(calendar) }
+
 ## Walhalla
+puts "Walhalla: Parsing"
 require './app/walhalla/parser'
 urls = [
   "https://www.walhalla-deventer.nl/activiteiten/afgelopen/?action=tribe_list&tribe_paged=1",
@@ -63,6 +66,7 @@ calendar = CalendarBuilder.new(events).call
 File.open("build/walhalla/events.ics", 'w') { |file| file.write(calendar) }
 
 ## BWH
+puts "BWH: Parsing"
 require './app/bwh/parser'
 urls = ["https://www.burgerweeshuis.nl/programma"]
 
