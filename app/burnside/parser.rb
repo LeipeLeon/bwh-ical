@@ -9,7 +9,7 @@ module Burnside
         details = {}
         if date_str = event.css("[itemprop=startDate]").first&.attribute("content")&.content&.strip
           date = DateTime.parse(date_str)
-          next if CUTOFF > date
+          next if cutoff > date
           details[:datum] = date.strftime("%d-%m-%Y")
           # details[:geopend] = "20:00 uur" # date.strftime("%H:%M uur")
           # details[:aanvang] = "20:00 uur" # date.strftime("%H:%M uur")

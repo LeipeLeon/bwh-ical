@@ -1,6 +1,4 @@
 class Parser
-  CUTOFF = (DateTime.now - 14) # minus 14 days
-
   def self.call(args)
     new(args).call
   end
@@ -9,6 +7,8 @@ class Parser
     @base_urls = args
   end
   attr_reader :base_urls
+
+  def cutoff = (DateTime.now - 14) # minus 14 days
 
   private
 
