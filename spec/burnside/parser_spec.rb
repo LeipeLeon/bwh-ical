@@ -7,11 +7,11 @@ RSpec.describe Burnside::Parser do
 
   let(:expected) {
     {
-      datum: "24-01-2025",
+      datum: "30-05-2025",
       description: "Updated: 09-01-2025 20:00",
       locatie: "Burnside Park & Shop, Sint Olafstraat 6",
-      title: "Valse start",
-      url: "https://www.burnside.nl/agenda/__trashed/"
+      title: "Burnside cafÃ© â\u0080\u0093 Zomer programma vrijdag 30 mei â\u0080\u0093 Nic Frederick",
+      url: "https://www.burnside.nl/agenda/burnside-cafe-zomer-programma-vrijdag-30-mei-nic-frederick/"
     }
   }
 
@@ -36,7 +36,7 @@ RSpec.describe Burnside::Parser do
 
   describe "#call" do
     it "parses file" do
-      expect(subject.call.size).to eql(5)
+      expect(subject.call.size).to eql(6)
       expect { subject.call }.not_to raise_error
     end
   end

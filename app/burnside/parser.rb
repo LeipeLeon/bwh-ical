@@ -7,29 +7,38 @@ module Burnside
     def call
       events.map do |event|
         details = {}
-        if date_str = event.css("[itemprop=startDate]").first&.attribute("content")&.content&.strip
+        if date_str = event.css(".agenda-datum").first&.content&.strip.tr(".", "-")
+          next if date_str == "Past event"
           date = DateTime.parse(date_str)
-          next if cutoff > date
+          if cutoff > date
+            puts "Skipping event: #{date_str} (cutoff: #{cutoff})"
+            next
+          end
+
           details[:datum] = date.strftime("%d-%m-%Y")
           # details[:geopend] = "20:00 uur" # date.strftime("%H:%M uur")
           # details[:aanvang] = "20:00 uur" # date.strftime("%H:%M uur")
           # details[:eindtijd] = "23:59 uur" # (date + 4.0/24).strftime("%H:%M uur")
-          details[:title] = event.css(".entry-title [itemprop=name]")&.first&.content&.strip
-          details[:url] = event.css("[itemprop=url]")&.first.attribute("href").content
+          titles = event.css("a").map { _1.attribute("title")}.compact
+          details[:title] = titles.first.content # event.css(".entry-title [itemprop=name]")&.first&.content&.strip || event.css(".entry-title")&.first&.content&.strip
+          details[:url] = event.css("a")&.first&.attribute("href")&.content
           details[:description] = "Updated: #{Time.now.strftime("%d-%m-%Y %H:%M")}"
           details[:locatie] = [
             event.css("[itemprop=location] [itemprop=name]")&.first&.content&.strip,
             event.css("[itemprop=location] [itemprop=streetAddress]")&.first&.content&.strip,
-          ].join(", ")
+          ].compact.join(", ")
+          details[:locatie] = "Burnside Park & Shop, Sint Olafstraat 6" if details[:locatie] == ""
           # locatie: "Concertzaal",
           # eindtijd: "04:00 uur",
           # leeftijd: "16+",
           # type: "",
           # prijs: "€ 7,50",
           details
+        else
+          throw "Skipping event: no date found in #{event.css("[itemprop=startDate]").first&.attribute("content")&.content}"
         end
       rescue
-        pp event.content
+        pp event.to_html
         pp details
         raise
       end.compact
