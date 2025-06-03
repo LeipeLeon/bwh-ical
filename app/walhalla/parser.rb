@@ -31,7 +31,7 @@ module Walhalla
         pp event.content
         pp details
         raise
-      end
+      end.sort { |a,b| Date.parse(a[:datum]) <=> Date.parse(b[:datum])}
     end
 
     private

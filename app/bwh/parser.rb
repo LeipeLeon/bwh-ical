@@ -19,7 +19,7 @@ module Bwh
         details[0][:description] = description
 
         details
-      end.flatten
+      end.flatten.sort { |a,b| Date.parse(a[:datum]) <=> Date.parse(b[:datum])}
     end
 
     def detail_content(node)

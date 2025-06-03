@@ -41,7 +41,7 @@ module Burnside
         pp event.to_html
         pp details
         raise
-      end.compact
+      end.compact.sort { |a,b| Date.parse(a[:datum]) <=> Date.parse(b[:datum])}
     end
 
     private
