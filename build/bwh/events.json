@@ -1,31 +1,5 @@
 [
   {
-    "datum": "30-05-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "gratis",
-    "url": "https://www.burgerweeshuis.nl/events/talent-night",
-    "title": "Talent Night ",
-    "description": "May 30, 2025 –"
-  },
-  {
-    "datum": "31-05-2025",
-    "locatie": "Concertzaal",
-    "geopend": "22:00 uur",
-    "aanvang": "22:00 uur",
-    "eindtijd": "02:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 15,-",
-    "url": "https://www.burgerweeshuis.nl/events/time-of-my-life",
-    "title": "Time Of My Life",
-    "description": "May 31, 2025 – Time of my life is dansen op filmmuziek!"
-  },
-  {
     "datum": "03-06-2025",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",

@@ -1,5 +1,14 @@
 [
   {
+    "datum": "31-05-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Unplugged & Uncovered",
+    "url": "https://www.walhalla-deventer.nl/activiteit/unplugged-uncovered/"
+  },
+  {
     "datum": "24-05-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -394,24 +403,6 @@
     "locatie": "Walhalla, Deventer",
     "title": "Springplank",
     "url": "https://www.walhalla-deventer.nl/activiteit/springplank/"
-  },
-  {
-    "datum": "07-12-2024",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Queercafé",
-    "url": "https://www.walhalla-deventer.nl/activiteit/queercafe/"
-  },
-  {
-    "datum": "31-05-2025",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Unplugged & Uncovered",
-    "url": "https://www.walhalla-deventer.nl/activiteit/unplugged-uncovered/"
   },
   {
     "datum": "06-06-2025",

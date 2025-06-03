@@ -1,11 +1,5 @@
 [
   {
-    "datum": "30-05-2025",
-    "title": "Burnside café – Zomer programma vrijdag 30 mei – Nic Frederick",
-    "url": "https://www.burnside.nl/agenda/burnside-cafe-zomer-programma-vrijdag-30-mei-nic-frederick/",
-    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
-  },
-  {
     "datum": "06-06-2025",
     "title": "Burnside café – Zomer programma vrijdag 6 juni – Wantigga",
     "url": "https://www.burnside.nl/agenda/burnside-cafe-zomer-programma-vrijdag-6-juni-wantigga/",
@@ -27,6 +21,12 @@
     "datum": "11-08-2025",
     "title": "Skate around Summer camp – België",
     "url": "https://www.burnside.nl/agenda/skate-around-summer-camp-belgie/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "23-08-2025",
+    "title": "BCP Full Moon Party",
+    "url": "https://www.burnside.nl/agenda/bcp-full-moon-party/",
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
   {
