@@ -3,14 +3,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - "*"
   schedule:
     - cron: '0 * * * *' # every hour
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   # Build job
@@ -25,9 +20,9 @@ jobs:
 
       - name: Set short SHA, Commit Message and Ruby version to ENV
         run: |
-          echo "COMMIT_SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
-          echo "COMMIT_MESSAGE=$(git log --pretty=format:%s -n 1)" >> $GITHUB_ENV
           echo "RUBY_VERSION=$(grep ^ruby Gemfile | cut -f2 -d'"')" >> $GITHUB_ENV
+      #     echo "COMMIT_SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
+      #     echo "COMMIT_MESSAGE=$(git log --pretty=format:%s -n 1)" >> $GITHUB_ENV
 
       - name: Setup Ruby and install gems
         uses: ruby/setup-ruby@v1
@@ -59,16 +54,24 @@ jobs:
             git add -f build/*json
             timestamp=$(date -u)
             git commit -m "Latest data: ${timestamp}" || exit 0
-            git push origin main
+            git push origin ${{ github.ref }}
           fi
 
   # Deployment job
   deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
