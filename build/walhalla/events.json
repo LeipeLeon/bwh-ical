@@ -442,9 +442,9 @@
   },
   {
     "datum": "14-06-2025",
-    "geopend": "01:00 uur",
-    "aanvang": "01:00 uur",
-    "eindtijd": "05:00 uur",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
     "locatie": "Walhalla, Deventer",
     "title": "Albumrelease: KNARS",
     "url": "https://www.walhalla-deventer.nl/activiteit/albumrelease-knars/"
@@ -466,5 +466,14 @@
     "locatie": "Walhalla, Deventer",
     "title": "PRIDENIGHT",
     "url": "https://www.walhalla-deventer.nl/activiteit/pridenight/"
+  },
+  {
+    "datum": "04-07-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Kick out the Jams",
+    "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-33/"
   }
 ]
