@@ -423,6 +423,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/albumrelease-knars/"
   },
   {
+    "datum": "20-06-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Kutfeest",
+    "url": "https://www.walhalla-deventer.nl/activiteit/kutfeest/"
+  },
+  {
     "datum": "21-06-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -448,5 +457,14 @@
     "locatie": "Walhalla, Deventer",
     "title": "Kick out the Jams",
     "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-33/"
+  },
+  {
+    "datum": "19-07-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Femxle Frontier | Borrel + live muziek",
+    "url": "https://www.walhalla-deventer.nl/activiteit/femxle-frontier-borrel-live-muziek/"
   }
 ]
