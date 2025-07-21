@@ -1,31 +1,5 @@
 [
   {
-    "datum": "19-07-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "19:30 uur",
-    "eindtijd": "23:59",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 18,-",
-    "url": "https://www.burgerweeshuis.nl/events/vroegzat-6",
-    "title": "VroegZat  ",
-    "description": "Jul 19, 2025 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
-  },
-  {
-    "datum": "20-07-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 27,-",
-    "url": "https://www.burgerweeshuis.nl/events/nada-surf",
-    "title": "Nada Surf",
-    "description": "Jul 20, 2025 – Melodieuze rockband Nada Surf verwierf in de jaren ’90 een cultstatus met hun alt-rock anthem 'Popular'."
-  },
-  {
     "datum": "09-08-2025",
     "locatie": "Paintball Deventer",
     "geopend": "12:00 uur",
@@ -284,6 +258,19 @@
     "url": "https://www.burgerweeshuis.nl/events/magnetic-spacmen",
     "title": " Magnetic Spacemen // Special Guest: Heavy Lungs",
     "description": "Oct 10, 2025 – Op deze nu al legendarische avond: de release van het vierde album van Magnetic Spacemen. Samen met Special Guest: Heavy Lungs‍ wordt het een avond die nog lang na gaat suizen."
+  },
+  {
+    "datum": "11-10-2025",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "19:30 uur",
+    "eindtijd": "23:59",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 18,-",
+    "url": "https://www.burgerweeshuis.nl/events/vroegzat-7",
+    "title": "VroegZat  ",
+    "description": "Oct 11, 2025 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
   },
   {
     "datum": "16-10-2025",
