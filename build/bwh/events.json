@@ -91,6 +91,19 @@
     "description": "Sep 06, 2025 – Catch vibes at ENTOURAGE!"
   },
   {
+    "datum": "10-09-2025",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-ontwerpen-met-zorg",
+    "title": "Science café: Ontwerpen  met zorg",
+    "description": "Sep 10, 2025 – Ons zorgsysteem kampt al tijden met een tekort aan personeel en dat zal naar verwachting alleen maar erger worden."
+  },
+  {
     "datum": "12-09-2025",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
