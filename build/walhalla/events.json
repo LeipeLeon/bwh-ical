@@ -414,6 +414,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/dolle-minas-toen-en-nu/"
   },
   {
+    "datum": "26-09-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Ateliercafé",
+    "url": "https://www.walhalla-deventer.nl/activiteit/ateliercafe-3/"
+  },
+  {
     "datum": "27-09-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -421,6 +430,24 @@
     "locatie": "Walhalla, Deventer",
     "title": "Shadowplay / Alternative 80’s Danceparty",
     "url": "https://www.walhalla-deventer.nl/activiteit/shadowplay-alternative-80s-danceparty/"
+  },
+  {
+    "datum": "03-10-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Kick out the Jams",
+    "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-34/"
+  },
+  {
+    "datum": "04-10-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "KOPPIJN III",
+    "url": "https://www.walhalla-deventer.nl/activiteit/koppijn-iii/"
   },
   {
     "datum": "11-10-2025",
@@ -432,6 +459,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/mold-2/"
   },
   {
+    "datum": "17-10-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Karaoke Café",
+    "url": "https://www.walhalla-deventer.nl/activiteit/karaoke-cafe-2/"
+  },
+  {
     "datum": "18-10-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -439,5 +475,14 @@
     "locatie": "Walhalla, Deventer",
     "title": "ADM W/ TBS",
     "url": "https://www.walhalla-deventer.nl/activiteit/adm-w-tbs/"
+  },
+  {
+    "datum": "24-10-2025",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "D&D | Deventer & Dragons is BACK",
+    "url": "https://www.walhalla-deventer.nl/activiteit/dd-deventer-dragons-is-back/"
   }
 ]
