@@ -559,6 +559,19 @@
     "description": "Jan 17, 2026 – De Hardheid is terug!"
   },
   {
+    "datum": "22-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30",
+    "aanvang": "20:00",
+    "eindtijd": "",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€11,00",
+    "url": "https://www.burgerweeshuis.nl/events/into-the-cradle",
+    "title": "The Cradles EP Release show",
+    "description": "Jan 22, 2026 – Na een zomer lang zwoegen is het zover: de nieuwe EP van The Cradles is er! Verwacht langere tracks, rauwe rock en dromerige liefdesliedjes. Denk aan psychedelica uit de jaren ’60 en ’70, gemixt met moderne indie en wereldse invloeden."
+  },
+  {
     "datum": "19-02-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -609,6 +622,19 @@
     "url": "https://www.burgerweeshuis.nl/events/taxi-taxi-kaboutertje-putlucht",
     "title": " Taxi Taxi // Kaboutertje Putlucht",
     "description": "Mar 27, 2026 – Een hectische dubbelshow voor liefhebbers van collectieve ontregeling. TAXITAXI vertrekt volgas en laat je achter in de modderpoel van Kaboutertje Putlucht. Stap in en hou je vast. Of niet..."
+  },
+  {
+    "datum": "03-04-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:15 uur",
+    "eindtijd": "22:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/amsterdam-klezmer-band",
+    "title": "Amsterdam Klezmer Band",
+    "description": "Apr 03, 2026 – De Amsterdam Klezmer Band staat al 30 jaar aan de top met hun wervelende mix van klezmer, balkan, ska, jazz, gipsy, oriëntaals en hiphop."
   },
   {
     "datum": "24-04-2026",
