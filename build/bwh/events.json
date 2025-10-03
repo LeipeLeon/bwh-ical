@@ -223,8 +223,8 @@
   {
     "datum": "31-10-2025",
     "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
+    "geopend": "20:30 uur",
+    "aanvang": "21:00 uur",
     "eindtijd": "23:30 uur",
     "leeftijd": "alle",
     "type": "",
@@ -570,6 +570,19 @@
     "url": "https://www.burgerweeshuis.nl/events/into-the-cradle",
     "title": "The Cradles EP Release show",
     "description": "Jan 22, 2026 – Na een zomer lang zwoegen is het zover: de nieuwe EP van The Cradles is er! Verwacht langere tracks, rauwe rock en dromerige liefdesliedjes. Denk aan psychedelica uit de jaren ’60 en ’70, gemixt met moderne indie en wereldse invloeden."
+  },
+  {
+    "datum": "30-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 25,-",
+    "url": "https://www.burgerweeshuis.nl/events/mooi-wark",
+    "title": "Mooi Wark",
+    "description": "Jan 30, 2026 – In zweterige feesttenten met deinende mensenmassa’s blaast Mooi Wark de boel steevast omver met een dampende mix van eigen rockknallers en onvervalste feestmuziek."
   },
   {
     "datum": "05-02-2026",
