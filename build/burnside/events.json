@@ -1,11 +1,5 @@
 [
   {
-    "datum": "18-10-2025",
-    "title": "HEIS – Live muziek",
-    "url": "https://www.burnside.nl/agenda/heis-live-muziek/",
-    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
-  },
-  {
     "datum": "20-10-2025",
     "title": "Skateweek herfstprogramma –  6 t/m 16 jaar",
     "url": "https://www.burnside.nl/agenda/skateweek-herfstprogramma-6-t-m-16-jaar/",
@@ -18,9 +12,21 @@
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
   {
+    "datum": "15-11-2025",
+    "title": "Jordy Dijkshoorn – Burger concerten bij Burn",
+    "url": "https://www.burnside.nl/agenda/jordy-dijkshoorn-burger-concerten-bij-burn/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
     "datum": "13-01-2026",
     "title": "Wax & Slijp clinic",
     "url": "https://www.burnside.nl/agenda/wax-slijp-clinic/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "24-01-2026",
+    "title": "HEIS – Live sessies",
+    "url": "https://www.burnside.nl/agenda/heis-live-sessies/",
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
   {
