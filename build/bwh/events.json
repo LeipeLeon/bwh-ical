@@ -522,15 +522,28 @@
   {
     "datum": "27-02-2026",
     "locatie": "Concertzaal",
-    "geopend": "18:30 uur / 16:00 uur",
-    "aanvang": "19:00 uur / 16:30 uur",
-    "eindtijd": "01:00 uur / 23:00 uur",
+    "geopend": "18:30 uur",
+    "aanvang": "19:00 uur",
+    "eindtijd": "01:00 uur",
     "leeftijd": "alle",
     "type": "",
-    "prijs": "dag ticket: € 32,- / combi ticket: € 52,-",
+    "prijs": "dag ticket: € 32,- / combi ticket (2 dagen): € 52,-",
     "url": "https://www.burgerweeshuis.nl/events/heavy-psych-sounds-fest-2026",
-    "title": "Heavy Psych Sounds Fest 2026 - 27 & 28 februari",
-    "description": "Feb 27, 2026 – Heavy Psych Sounds Records & Booking zal Brussel en Deventer platwalsen met hun veelgeprezen festivalreeks: HEAVY PSYCH SOUNDS FEST! Dit tweedaagse festival zal Burgerweeshuis en Deventer op hun grondvesten doen schudden. De eerste namen zijn bekend maar er volgen er binnenkort meer....."
+    "title": "Heavy Psych Sounds Fest - 27 & 28 februari",
+    "description": "Feb 27, 2026 – Heavy Psych Sounds Records & Booking zal Brussel en Deventer platwalsen met hun veelgeprezen festivalreeks: HEAVY PSYCH SOUNDS FEST 2026! Dit tweedaagse festival zal Burgerweeshuis en Deventer op hun grondvesten doen schudden...."
+  },
+  {
+    "datum": "28-02-2026",
+    "locatie": "Concertzaal",
+    "geopend": "16:00 uur",
+    "aanvang": "16:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "dag ticket: € 32,- / combi ticket (2 dagen): € 52,-",
+    "url": "https://www.burgerweeshuis.nl/events/heavy-psych-sounds-fest---27-28-februari",
+    "title": "Heavy Psych Sounds Fest - 27 & 28 februari",
+    "description": "Feb 28, 2026 – Heavy Psych Sounds Records & Booking zal Brussel en Deventer platwalsen met hun veelgeprezen festivalreeks: HEAVY PSYCH SOUNDS FEST 2026! Dit tweedaagse festival zal Burgerweeshuis en Deventer op hun grondvesten doen schudden...."
   },
   {
     "datum": "13-03-2026",
