@@ -1,11 +1,5 @@
 [
   {
-    "datum": "01-11-2025",
-    "title": "Skate BOK",
-    "url": "https://www.burnside.nl/agenda/skate-bok-2/",
-    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
-  },
-  {
     "datum": "07-11-2025",
     "title": "Valse start",
     "url": "https://www.burnside.nl/agenda/valse-start-9/",
@@ -15,6 +9,18 @@
     "datum": "15-11-2025",
     "title": "Jordy Dijkshoorn – Burger concerten bij Burn",
     "url": "https://www.burnside.nl/agenda/jordy-dijkshoorn-burger-concerten-bij-burn/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "29-11-2025",
+    "title": "Inline BOK",
+    "url": "https://www.burnside.nl/agenda/inline-bok-3/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "10-01-2026",
+    "title": "Start nieuwe serie skateboard lessen",
+    "url": "https://www.burnside.nl/agenda/start-nieuwe-serie-skateboard-lessen/",
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
   {
