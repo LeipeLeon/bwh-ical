@@ -221,6 +221,19 @@
     "description": "Dec 05, 2025 – Een dubbelshow vol eigenzinnige post-punk uit Rotterdam!"
   },
   {
+    "datum": "06-12-2025",
+    "locatie": "Concertzaal",
+    "geopend": "23:00 uur",
+    "aanvang": "23:00 uur",
+    "eindtijd": "04:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 17,50",
+    "url": "https://www.burgerweeshuis.nl/events/cupido-5",
+    "title": "Cupido",
+    "description": "Dec 06, 2025 – Kom in de familie feestmaand een feestje vieren met je gekozen familie: je vrienden!"
+  },
+  {
     "datum": "11-12-2025",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -557,6 +570,19 @@
     "url": "https://www.burgerweeshuis.nl/events/heavy-psych-sounds-fest---27-28-februari",
     "title": "Heavy Psych Sounds Fest",
     "description": "Feb 28, 2026 – Heavy Psych Sounds Records & Booking zal Brussel en Deventer platwalsen met hun veelgeprezen festivalreeks: HEAVY PSYCH SOUNDS FEST 2026! Dit tweedaagse festival zal Burgerweeshuis en Deventer op hun grondvesten doen schudden...."
+  },
+  {
+    "datum": "08-03-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 30,-",
+    "url": "https://www.burgerweeshuis.nl/events/prong",
+    "title": "Prong",
+    "description": "Mar 08, 2026 – Weinig bands hebben zo hun stempel gedrukt op een genre als Prong. Of beter gezegd; zanger, gitarist, componist en fulltime metal-icoon Tommy Victor heeft dat gedaan."
   },
   {
     "datum": "13-03-2026",
