@@ -1,44 +1,5 @@
 [
   {
-    "datum": "08-11-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "gratis",
-    "url": "https://www.burgerweeshuis.nl/events/talent-night---jammen-samenspelen",
-    "title": "Talent Night - Jammen & Samenspelen",
-    "description": "Nov 08, 2025 – Deze Talent Night is de afsluiting van het workshoptraject Deventer Talenthouse -Jammen & Samenspelen."
-  },
-  {
-    "datum": "08-11-2025",
-    "locatie": "",
-    "geopend": "23:00 uur",
-    "aanvang": "23:00 uur",
-    "eindtijd": "04:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 15,99",
-    "url": "https://www.burgerweeshuis.nl/events/sante",
-    "title": "Santé",
-    "description": "Nov 08, 2025 – Trots presenteren wij dat Nieuw Bloed, Barstories en De Smaak van Deventer dit jaar wederom de krachten bundelen met alweer de derde editie van Santé."
-  },
-  {
-    "datum": "12-11-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:30 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "gratis",
-    "url": "https://www.burgerweeshuis.nl/events/science-cafe",
-    "title": "Science Café: Tot overmaat van ramp",
-    "description": "Nov 12, 2025 – Droogte, overstromingen, pandemieën, hongersnood… Natuurrampen lijken steeds frequenter voor te komen, en intenser dan ooit. Maar is dat ook zo?"
-  },
-  {
     "datum": "13-11-2025",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
@@ -197,9 +158,9 @@
   {
     "datum": "05-12-2025",
     "locatie": "Concertzaal",
-    "geopend": "20:30 uur",
-    "aanvang": "21:00 uur",
-    "eindtijd": "23:30 uur",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
     "leeftijd": "alle",
     "type": "",
     "prijs": "€ 18,-",
@@ -585,6 +546,19 @@
     "description": "Mar 13, 2026 – Na het enorme succes van zijn eerste solotour keert Jack Shore terug met JACK IN THE MIDDLE, zijn grootste tour tot nu toe, ter viering van zijn debuutalbum."
   },
   {
+    "datum": "14-03-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 24,50",
+    "url": "https://www.burgerweeshuis.nl/events/ares",
+    "title": "ARES",
+    "description": "Mar 14, 2026 – Na twee jaar stilte keert Ares terug naar het podium met de Andere Man Tour – een volledig nieuwe liveshow waarin hij zijn recent uitgebrachte album tot leven brengt met een liveband en een frisse, volwassen sound."
+  },
+  {
     "datum": "20-03-2026",
     "locatie": "Concertzaal",
     "geopend": "21:00 uur",
@@ -676,6 +650,19 @@
     "description": "Apr 10, 2026 – Meral Polat doordrenkt de Koerdische ziel met de ongefilterde energie en emotie van de blues."
   },
   {
+    "datum": "11-04-2026",
+    "locatie": "Walhalla",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 14,-",
+    "url": "https://www.burgerweeshuis.nl/events/politie-warnsveld",
+    "title": " Politie Warnsveld ",
+    "description": "Apr 11, 2026 – Politie Warnsveld is wat er gebeurt als je plezier écht serieus neemt."
+  },
+  {
     "datum": "24-04-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
@@ -702,6 +689,19 @@
     "description": "Apr 24, 2026 – Een avondje psychedelische vuurkracht & rituele rock! HEATH brengt vurige, moderne blues- en psychrock met diepe emotie en spirituele gelaagdheid. Baba Pen serveert een rituele trip vol 60’s vibes, folk, mystiek en improvisatie."
   },
   {
+    "datum": "25-04-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 26,-",
+    "url": "https://www.burgerweeshuis.nl/events/anneke-van-giersbergen",
+    "title": "Anneke van Giersbergen",
+    "description": "Apr 25, 2026 – De Nederlandse zangeres en songwriter Anneke van Giersbergen staat bekend om haar serene maar krachtige stem, haar muzikale veelzijdigheid en haar betoverende podiumpresentatie."
+  },
+  {
     "datum": "29-04-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 uur",
@@ -713,6 +713,19 @@
     "url": "https://www.burgerweeshuis.nl/events/high-fade",
     "title": " High Fade",
     "description": "Apr 29, 2026 – High Fade boekt zijn eigen shows, bouwt zijn eigen publiek en bewijst dat je geen groot label nodig hebt om impact te maken."
+  },
+  {
+    "datum": "30-04-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 23,-",
+    "url": "https://www.burgerweeshuis.nl/events/a-place-to-bury-strangers",
+    "title": " A Place To Bury Strangers",
+    "description": "Apr 30, 2026 – Oliver Ackermann blijft verrassen!"
   },
   {
     "datum": "01-05-2026",
@@ -741,6 +754,19 @@
     "description": "May 08, 2026 – Michelle David & The True-Tones brengen een onweerstaanbare mix van gospel, soul, funk en rhythm & blues. Met hun krachtige liveshows schitterden ze op festivals als Pinkpop en North Sea Jazz. Op 27 februari 2026 verschijnt hun meest persoonlijke album Soul Woman: een muzikaal statement over identiteit, heling en verbinding."
   },
   {
+    "datum": "02-10-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/dub-pistols",
+    "title": "Dub Pistols",
+    "description": "Oct 02, 2026 – De Dub Pistols zijn voortgekomen uit de big beat-explosie van midden jaren negentig."
+  },
+  {
     "datum": "23-10-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -752,5 +778,18 @@
     "url": "https://www.burgerweeshuis.nl/events/baba-zula",
     "title": " BaBa ZuLa",
     "description": "Oct 23, 2026 – De onovertroffen meesters van de 21e-eeuwse Turkse psychedelische muziek!"
+  },
+  {
+    "datum": "13-11-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/lucky-fonz-iii",
+    "title": " Lucky Fonz III",
+    "description": "Nov 13, 2026 – Lucky Fonz III is één van Nederlands meest geliefde zangers en live-artiesten, bekend van hits als ‘Ik heb een meisje’, ‘Linde met een E, ‘Ik ben een sukkel’ en ‘Kwantumwetenschapper’."
   }
 ]
