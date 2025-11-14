@@ -14,19 +14,6 @@
   },
   {
     "datum": "15-11-2025",
-    "locatie": "Burnside",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "23:30 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 18,-",
-    "url": "https://www.burgerweeshuis.nl/events/jordy-dijkshoorn",
-    "title": " Jordy Dijkshoorn",
-    "description": "Nov 15, 2025 – Jordy Dijkshoorn, geboren in Vlaardingen en groot geworden in Rotterdam, kennen we als de spraakmakende frontman van De Likt."
-  },
-  {
-    "datum": "15-11-2025",
     "locatie": "Concertzaal",
     "geopend": "23:00 uur",
     "aanvang": "23:00 uur",
@@ -37,6 +24,19 @@
     "url": "https://www.burgerweeshuis.nl/events/forza-w-spacer-woman-eva-vrijdag",
     "title": "Forza w/ Spacer Woman / Eva Vrijdag",
     "description": "Nov 15, 2025 – Voel je het? Er hangt energie in de lucht: dé clubnacht met de beste high nrg house, trancey en rave sounds komt straight vanuit Nijmegen om Deventer op de grondvesten te laten zinderen."
+  },
+  {
+    "datum": "15-11-2025",
+    "locatie": "Burnside",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 18,-",
+    "url": "https://www.burgerweeshuis.nl/events/jordy-dijkshoorn",
+    "title": " Jordy Dijkshoorn",
+    "description": "Nov 15, 2025 – Jordy Dijkshoorn, geboren in Vlaardingen en groot geworden in Rotterdam, kennen we als de spraakmakende frontman van De Likt."
   },
   {
     "datum": "21-11-2025",
@@ -687,6 +687,19 @@
     "url": "https://www.burgerweeshuis.nl/events/anneke-van-giersbergen",
     "title": "Anneke van Giersbergen",
     "description": "Apr 25, 2026 – De Nederlandse zangeres en songwriter Anneke van Giersbergen staat bekend om haar serene maar krachtige stem, haar muzikale veelzijdigheid en haar betoverende podiumpresentatie."
+  },
+  {
+    "datum": "25-04-2026",
+    "locatie": "Concertzaal",
+    "geopend": "23:00 uur",
+    "aanvang": "23:00 uur",
+    "eindtijd": "02:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 7,50",
+    "url": "https://www.burgerweeshuis.nl/events/altoooooh-5",
+    "title": "ALTOOOOOH!  ",
+    "description": "Apr 25, 2026 – Altoooooh! staat voor fijnproeversmuziek van het intense soort. Alternatieve muziek waarop gedanst kan worden. Met als basis de muziek uit de jaren 80 en 90 waarop je heerlijk los kon gaan op de festivals. Altoooooh! is een alternatieve dansavond."
   },
   {
     "datum": "29-04-2026",
