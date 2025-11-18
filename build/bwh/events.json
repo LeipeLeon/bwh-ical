@@ -130,6 +130,19 @@
     "description": "Dec 06, 2025 – Kom in de familie feestmaand een feestje vieren met je gekozen familie: je vrienden!"
   },
   {
+    "datum": "10-12-2025",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-2",
+    "title": "Science Café",
+    "description": "Dec 10, 2025 – Samenwerkende steden met botsende belangen"
+  },
+  {
     "datum": "11-12-2025",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
