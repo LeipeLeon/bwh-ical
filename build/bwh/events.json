@@ -846,6 +846,19 @@
   },
   {
     "datum": "15-05-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 18,-",
+    "url": "https://www.burgerweeshuis.nl/events/zzz-stuurbaard-bakkebaard",
+    "title": "zZz // Stuurbaard Bakkebaard",
+    "description": "May 15, 2026 – Maak je klaar voor een zinderende avond waarin twee cult veteranen van de Nederlandse underground het podium in brand zetten!"
+  },
+  {
+    "datum": "15-05-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
     "aanvang": "20:30 uur",
