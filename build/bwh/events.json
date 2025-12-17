@@ -1,18 +1,5 @@
 [
   {
-    "datum": "17-12-2025",
-    "locatie": "Het Penninckshuis",
-    "geopend": "20:00 uur",
-    "aanvang": "20:45 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "€ 21,-",
-    "url": "https://www.burgerweeshuis.nl/events/arstidir",
-    "title": "Árstíðir",
-    "description": "Dec 17, 2025 – Het geluid van de IJslandse band Árstíðir kenmerkt zich door prachtige vocale harmonieën aangevuld met strijkinstrumenten."
-  },
-  {
     "datum": "18-12-2025",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
@@ -102,5 +89,18 @@
     "url": "https://www.burgerweeshuis.nl/events/nl-kruitverschieten",
     "title": "NK Kruitverschieten",
     "description": "Dec 27, 2025 – Derde Kerstdag = Kruitverschieten! De kalkoen is gezakt, je geduld is op… en ja hoor: je hebt weer braaf aan oom Henk moeten uitleggen welke studie je nou eigenlijk doet. Je vervelende neefjes hebben je huis bijna verbouwd en je tante heeft je wéér een bezoekje afgedwongen “binnenkort, écht hè?”. Kortom: het is tijd om álles eruit te knallen."
+  },
+  {
+    "datum": "28-12-2025",
+    "locatie": "Concertzaal",
+    "geopend": "14:30 uur",
+    "aanvang": "15:00 uur",
+    "eindtijd": "20:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 19,50 / deur: € 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/4e-kerstbal",
+    "title": "4e Kerstbal",
+    "description": "Dec 28, 2025 – Tussen kerst en oud & nieuw is er altijd die angstaanjagende leegte. Je hebt je oma al gezoend, je gourmetstel in de fik gestoken en je hersens half weggespoeld met alcohol. En dan… niks. TOT NU. Burgerweeshuis presenteert: 4e KERSTBAL."
   }
 ]
