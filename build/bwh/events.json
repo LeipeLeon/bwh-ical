@@ -1,44 +1,5 @@
 [
   {
-    "datum": "19-12-2025",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "23:30 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 24,-",
-    "url": "https://www.burgerweeshuis.nl/events/the-vices",
-    "title": "The Vices",
-    "description": "Dec 19, 2025 – The Vices brengen een contrasterende mix van indie, psychedelic blues en rock."
-  },
-  {
-    "datum": "19-12-2025",
-    "locatie": "Concertzaal",
-    "geopend": "23:59 uur",
-    "aanvang": "23:59 uur",
-    "eindtijd": "05:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 10,-",
-    "url": "https://www.burgerweeshuis.nl/events/de-sluwe-vos-10x10-tour",
-    "title": "De Sluwe Vos ",
-    "description": "Dec 19, 2025 – Na het succes van vorig jaar gaat De Sluwe Vos nu weer een rondje clubs door Nederland aan doen voor maar €10,-."
-  },
-  {
-    "datum": "19-12-2025",
-    "locatie": "Walhalla",
-    "geopend": "19:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "",
-    "url": "https://www.burgerweeshuis.nl/events/deventer-talenthouse---talentnight-produceren",
-    "title": "Deventer Talenthouse - Talentnight Produceren",
-    "description": "Dec 19, 2025 – Na weken werken, experimenteren en creëren in Deventer Talenthouse Produceren is het tijd om het eindresultaat te horen!"
-  },
-  {
     "datum": "20-12-2025",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -102,5 +63,44 @@
     "url": "https://www.burgerweeshuis.nl/events/nachtparlement-nye",
     "title": "Nachtparlement NYE",
     "description": "Dec 31, 2025 – Het is inmiddels een vaste traditie: de Nachtparlement-community sluit het jaar af in het Burgerweeshuis."
+  },
+  {
+    "datum": "10-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "19:30 uur",
+    "eindtijd": "00:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 18,-",
+    "url": "https://www.burgerweeshuis.nl/events/vroegzat-8",
+    "title": "VroegZat",
+    "description": "Jan 10, 2026 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
+  },
+  {
+    "datum": "10-01-2026",
+    "locatie": "Walhalla",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 14,-",
+    "url": "https://www.burgerweeshuis.nl/events/asbest-de-halsband",
+    "title": "Asbest // De Halsband ",
+    "description": "Jan 10, 2026 – Twee bands, één knalavond vol energie! Met shows waar de versterkers snakken naar adem en het publiek naar meer."
+  },
+  {
+    "datum": "15-01-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:45 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "€ 15,-",
+    "url": "https://www.burgerweeshuis.nl/events/the-lowest-pair",
+    "title": "The Lowest Pair",
+    "description": "Jan 15, 2026 – The Lowest Pair, bestaande uit Kendl Winter en Palmer T. Lee, brengt een bijzondere combinatie van traditionele folk, bluegrass en alternatieve country."
   }
 ]
