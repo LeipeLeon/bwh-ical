@@ -1,18 +1,5 @@
 [
   {
-    "datum": "27-12-2025",
-    "locatie": "Concertzaal",
-    "geopend": "22:00 uur",
-    "aanvang": "22:00 uur",
-    "eindtijd": "03:00 uur",
-    "leeftijd": "18",
-    "type": "",
-    "prijs": "early bird €5, regular €10",
-    "url": "https://www.burgerweeshuis.nl/events/nl-kruitverschieten",
-    "title": "NK Kruitverschieten",
-    "description": "Dec 27, 2025 – Derde Kerstdag = Kruitverschieten! De kalkoen is gezakt, je geduld is op… en ja hoor: je hebt weer braaf aan oom Henk moeten uitleggen welke studie je nou eigenlijk doet. Je vervelende neefjes hebben je huis bijna verbouwd en je tante heeft je wéér een bezoekje afgedwongen “binnenkort, écht hè?”. Kortom: het is tijd om álles eruit te knallen."
-  },
-  {
     "datum": "28-12-2025",
     "locatie": "Concertzaal",
     "geopend": "14:30 uur",
@@ -102,5 +89,18 @@
     "url": "https://www.burgerweeshuis.nl/events/de-hardheid",
     "title": " De Hardheid ",
     "description": "Jan 17, 2026 – De Hardheid is terug!"
+  },
+  {
+    "datum": "17-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "23:00 uur",
+    "aanvang": "23:00 uur",
+    "eindtijd": "02:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 7,50",
+    "url": "https://www.burgerweeshuis.nl/events/altoooooh-4",
+    "title": "ALTOOOOOH! ",
+    "description": "Jan 17, 2026 – Altoooooh! staat voor fijnproeversmuziek van het intense soort. Alternatieve muziek waarop gedanst kan worden. Met als basis de muziek uit de jaren 80 en 90 waarop je heerlijk los kon gaan op de festivals. Altoooooh! is een alternatieve dansavond."
   }
 ]
