@@ -26,6 +26,19 @@
     "description": "Jan 10, 2026 – Twee bands, één knalavond vol energie! Met shows waar de versterkers snakken naar adem en het publiek naar meer."
   },
   {
+    "datum": "14-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-3",
+    "title": "Science Café ",
+    "description": "Jan 14, 2026 – Nieuwe methoden voor bloedtransfusies via de productie van stamcellen."
+  },
+  {
     "datum": "15-01-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
@@ -89,18 +102,5 @@
     "url": "https://www.burgerweeshuis.nl/events/into-the-cradle",
     "title": "The Cradles EP Release show",
     "description": "Jan 22, 2026 – Na een zomer lang zwoegen is het zover: de nieuwe EP van The Cradles is er! Verwacht langere tracks, rauwe rock en dromerige liefdesliedjes. Denk aan psychedelica uit de jaren ’60 en ’70, gemixt met moderne indie en wereldse invloeden."
-  },
-  {
-    "datum": "24-01-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:00 uur",
-    "aanvang": "19:30 uur",
-    "eindtijd": "22:00 uur",
-    "leeftijd": "",
-    "type": "",
-    "prijs": "€ 15,50",
-    "url": "https://www.burgerweeshuis.nl/events/duygu-alkan",
-    "title": "Duygu Alkan",
-    "description": "Jan 24, 2026 – In Istanbul opgegroeid, in Rotterdam geworteld — singer-songwriter Duygu Alkan verenigt oosterse melodieën met moderne synth-pop. Haar sound is fris, emotioneel en onmiskenbaar eigen."
   }
 ]
