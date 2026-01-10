@@ -1,31 +1,5 @@
 [
   {
-    "datum": "10-01-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "19:30 uur",
-    "eindtijd": "00:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 18,-",
-    "url": "https://www.burgerweeshuis.nl/events/vroegzat-8",
-    "title": "VroegZat",
-    "description": "Jan 10, 2026 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
-  },
-  {
-    "datum": "10-01-2026",
-    "locatie": "Walhalla",
-    "geopend": "20:00 uur",
-    "aanvang": "20:30 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 14,-",
-    "url": "https://www.burgerweeshuis.nl/events/asbest-de-halsband",
-    "title": "Asbest // De Halsband ",
-    "description": "Jan 10, 2026 – Twee bands, één knalavond vol energie! Met shows waar de versterkers snakken naar adem en het publiek naar meer."
-  },
-  {
     "datum": "14-01-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -102,5 +76,31 @@
     "url": "https://www.burgerweeshuis.nl/events/into-the-cradle",
     "title": "The Cradles EP Release show",
     "description": "Jan 22, 2026 – Na een zomer lang zwoegen is het zover: de nieuwe EP van The Cradles is er! Verwacht langere tracks, rauwe rock en dromerige liefdesliedjes. Denk aan psychedelica uit de jaren ’60 en ’70, gemixt met moderne indie en wereldse invloeden."
+  },
+  {
+    "datum": "24-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:00 uur",
+    "aanvang": "19:30 uur",
+    "eindtijd": "22:00 uur",
+    "leeftijd": "",
+    "type": "",
+    "prijs": "€ 15,50",
+    "url": "https://www.burgerweeshuis.nl/events/duygu-alkan",
+    "title": "Duygu Alkan",
+    "description": "Jan 24, 2026 – In Istanbul opgegroeid, in Rotterdam geworteld — singer-songwriter Duygu Alkan verenigt oosterse melodieën met moderne synth-pop. Haar sound is fris, emotioneel en onmiskenbaar eigen."
+  },
+  {
+    "datum": "24-01-2026",
+    "locatie": "Concertzaal",
+    "geopend": "23:00 uur",
+    "aanvang": "23:00 uur",
+    "eindtijd": "04:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 15,99",
+    "url": "https://www.burgerweeshuis.nl/events/entourage-5",
+    "title": "Entourage",
+    "description": "Jan 24, 2026 – Deze editie neemt Entourage je mee naar het hart van Brazilië."
   }
 ]
