@@ -1,18 +1,5 @@
 [
   {
-    "datum": "14-01-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:30 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "gratis",
-    "url": "https://www.burgerweeshuis.nl/events/science-cafe-3",
-    "title": "Science Café ",
-    "description": "Jan 14, 2026 – Nieuwe methoden voor bloedtransfusies via de productie van stamcellen."
-  },
-  {
     "datum": "15-01-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
