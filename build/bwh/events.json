@@ -1,31 +1,5 @@
 [
   {
-    "datum": "17-01-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:00 uur",
-    "aanvang": "19:30 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 17,-",
-    "url": "https://www.burgerweeshuis.nl/events/de-hardheid",
-    "title": " De Hardheid ",
-    "description": "Jan 17, 2026 – De Hardheid is terug!"
-  },
-  {
-    "datum": "17-01-2026",
-    "locatie": "Concertzaal",
-    "geopend": "23:00 uur",
-    "aanvang": "23:00 uur",
-    "eindtijd": "02:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 7,50",
-    "url": "https://www.burgerweeshuis.nl/events/altoooooh-4",
-    "title": "ALTOOOOOH! ",
-    "description": "Jan 17, 2026 – Altoooooh! staat voor fijnproeversmuziek van het intense soort. Alternatieve muziek waarop gedanst kan worden. Met als basis de muziek uit de jaren 80 en 90 waarop je heerlijk los kon gaan op de festivals. Altoooooh! is een alternatieve dansavond."
-  },
-  {
     "datum": "22-01-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30",
