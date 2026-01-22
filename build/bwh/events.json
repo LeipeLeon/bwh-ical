@@ -78,6 +78,19 @@
     "description": "Jan 31, 2026 – Voltjok - het meest uitbundige feest van NL"
   },
   {
+    "datum": "04-02-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-4",
+    "title": "Science Café  ",
+    "description": "Feb 04, 2026 – Het menselijke verhaal achter kolonialisme en slavernij inzichtelijk gemaakt."
+  },
+  {
     "datum": "05-02-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
