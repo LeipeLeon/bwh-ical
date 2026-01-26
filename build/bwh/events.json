@@ -97,7 +97,7 @@
     "aanvang": "20:30 uur",
     "eindtijd": "23:00 uur",
     "leeftijd": "alle",
-    "type": "",
+    "type": "seated",
     "prijs": "€ 26,-",
     "url": "https://www.burgerweeshuis.nl/events/stef-kamil-carlens-the-poem",
     "title": "Stef Kamil Carlens & The Poem",
@@ -669,7 +669,7 @@
     "aanvang": "20:30 uur",
     "eindtijd": "23:30 uur",
     "leeftijd": "alle",
-    "type": "",
+    "type": "seated",
     "prijs": "€ 19,-",
     "url": "https://www.burgerweeshuis.nl/events/parker-millsap",
     "title": "Parker Millsap",
@@ -700,6 +700,19 @@
     "url": "https://www.burgerweeshuis.nl/events/morgan-heritage",
     "title": "Morgan Heritage",
     "description": "May 24, 2026 – Morgan Heritage staat voor de absolute top in hedendaagse rootsreggae."
+  },
+  {
+    "datum": "26-05-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 24,50",
+    "url": "https://www.burgerweeshuis.nl/events/alela-diane",
+    "title": " Alela Diane",
+    "description": "May 26, 2026 – De Amerikaanse Alela Diane is een singer-songwriter en gitariste en niet in een muzikaal hokje te stoppen."
   },
   {
     "datum": "13-06-2026",
