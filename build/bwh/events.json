@@ -756,6 +756,19 @@
   {
     "datum": "07-08-2026",
     "locatie": "Paintball Deventer",
+    "geopend": "20:00 uur",
+    "aanvang": "21:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 35,-",
+    "url": "https://www.burgerweeshuis.nl/events/joep-beving",
+    "title": "Joep Beving",
+    "description": "Aug 07, 2026 – Dit jaar is Het Systeem Festival twee dagen. Op vrijdag 7 augustus galmt de eerste noot met een afzonderlijk openingsconcert van Joep Beving. Met zijn nieuwe werk Liminal verkent de pianist de balans tussen intentie en intuïtie. Op zaterdag 8 augustus verschuift het perspectief. Van middagzon tot nachtval wordt het terrein dan het speelveld voor elektronische muziek."
+  },
+  {
+    "datum": "07-08-2026",
+    "locatie": "Paintball Deventer",
     "geopend": "12:00 uur",
     "aanvang": "12:00 uur",
     "eindtijd": "24:00 uur",
