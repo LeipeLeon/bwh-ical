@@ -686,7 +686,7 @@
     "prijs": "€ 24,50",
     "url": "https://www.burgerweeshuis.nl/events/alela-diane",
     "title": " Alela Diane",
-    "description": "May 26, 2026 – De Amerikaanse Alela Diane is een singer-songwriter en gitariste en niet in een muzikaal hokje te stoppen."
+    "description": "May 26, 2026 – De Amerikaanse Alela Diane is een singer-songwriter en gitariste die opvalt door haar warme en ietwat mysterieuze stemgeluid."
   },
   {
     "datum": "05-06-2026",
@@ -700,6 +700,19 @@
     "url": "https://www.burgerweeshuis.nl/events/jungle-by-night",
     "title": "Jungle By Night",
     "description": "Jun 05, 2026 – De sfeervolle binnentuin van het Burgerweeshuis vormt ook dit jaar in juni weer het decor voor een veelzijdige serie tuinconcerten waar de vonken vanaf gaan vliegen. De bijzondere setting zorgt keer op keer voor een speciale vibe."
+  },
+  {
+    "datum": "06-06-2026",
+    "locatie": "Burgertuin",
+    "geopend": "18:30 uur",
+    "aanvang": "19:00 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 36,-",
+    "url": "https://www.burgerweeshuis.nl/events/the-fatal-flowers",
+    "title": "The Fatal Flowers",
+    "description": "Jun 06, 2026 – De sfeervolle binnentuin van het Burgerweeshuis vormt ook dit jaar in juni weer het decor voor een veelzijdige serie tuinconcerten waar de vonken vanaf gaan vliegen. De bijzondere setting zorgt keer op keer voor een speciale vibe."
   },
   {
     "datum": "07-06-2026",
