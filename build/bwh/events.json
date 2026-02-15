@@ -1,5 +1,31 @@
 [
   {
+    "datum": "14-02-2026",
+    "locatie": "Burnside",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 14,-",
+    "url": "https://www.burgerweeshuis.nl/events/bug-x-youngrubbi",
+    "title": "BUG x YoungRubbi ",
+    "description": "Feb 14, 2026 – De IK MOET KAPOT tour van BUG x YoungRubbi."
+  },
+  {
+    "datum": "14-02-2026",
+    "locatie": "Concertzaal",
+    "geopend": "23:00 uur",
+    "aanvang": "23:00 uur",
+    "eindtijd": "04:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 15,-",
+    "url": "https://www.burgerweeshuis.nl/events/nachttuin-13-jaar",
+    "title": " Nachttuin 13 jaar!",
+    "description": "Feb 14, 2026 – De Underground house clubnacht is jarig!"
+  },
+  {
     "datum": "15-02-2026",
     "locatie": "Concertzaal",
     "geopend": "19:00 uur",
