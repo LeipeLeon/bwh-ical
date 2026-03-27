@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "setup": "bundle install",
+        "run": "./bin/reader.rbx"
+    }
+}
