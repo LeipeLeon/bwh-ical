@@ -24,6 +24,29 @@ FileUtils.mkdir_p("build/greg_or_ian")
 
 File.open("build/greg_or_ian/events.ics", 'w') { |file| file.write(GregOrIan.new.call) }
 
+## Buitenpost
+begin
+  puts "Buitenpost: Parsing"
+  require './app/buitenpost/parser'
+  urls = ["https://bijbuitenpost.nl/wp-json/wp/v2/pages/19524"]
+
+  # retrieve all events
+  events = Buitenpost::Parser.call(urls).compact
+
+  # create parent directory
+  FileUtils.mkdir_p("build/buitenpost")
+
+  # cache to disk
+  File.open("build/buitenpost/events.json", 'w') { |file| file.write(JSON.pretty_generate(events)) }
+
+  # build calendar
+  calendar = CalendarBuilder.new(events).call
+
+  File.open("build/buitenpost/events.ics", 'w') { |file| file.write(calendar) }
+rescue Net::OpenTimeout
+  puts "Timeout while trying to fetch Buitenpost events. Skipping."
+end
+
 ## Burnside
 begin
   puts "Burnside: Parsing"
