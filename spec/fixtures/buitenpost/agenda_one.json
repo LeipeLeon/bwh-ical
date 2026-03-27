@@ -4,7 +4,7 @@
   "slug": "agenda",
   "title": { "rendered": "Agenda" },
   "content": {
-    "rendered": "<div class=\"et_pb_section\"><div class=\"et_pb_row\"><div class=\"et_pb_column\"><div class=\"et_pb_text\"><h1>Agenda Buitenpost</h1></div></div></div><div class=\"et_pb_row\" style=\"background-color:#09a0a9\"><div class=\"et_pb_column\"><div class=\"et_pb_text\"><h2>Lentebierfestival</h2>\n<h3>9 en 10 mei 2026</h3>\n<p>Het vijfde Lentebierfestival met 11 brouwers en meer dan 75 speciaalbieren.</p>\n</div><a class=\"et_pb_button\" href=\"https://bijbuitenpost.nl/lentebierfestival\">Meer informatie en tickets</a></div></div></div>"
+    "rendered": "<p>[et_pb_section fb_built=&#8221;1&#8243;][et_pb_row admin_label=&#8221;Event&#8221; background_color=&#8221;#09a0a9&#8243;][et_pb_column type=&#8221;4_4&#8243;][et_pb_text text_text_color=&#8221;#fffce5&#8243;]</p>\n<h2>Lentebierfestival</h2>\n<h3>9 en 10 mei 2026</h3>\n<p>Het vijfde Lentebierfestival met 11 brouwers en meer dan 75 speciaalbieren.</p>\n<p>[/et_pb_text][et_pb_button button_url=&#8221;https://bijbuitenpost.nl/lentebierfestival&#8221; button_text=&#8221;Meer informatie en tickets&#8221;][/et_pb_button][/et_pb_column][/et_pb_row][/et_pb_section]</p>\n"
   },
   "link": "https://bijbuitenpost.nl/agenda/"
 }

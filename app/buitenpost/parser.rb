@@ -8,12 +8,11 @@ module Buitenpost
     BASE_URL = "https://bijbuitenpost.nl"
 
     def call
-      events = event_rows.filter_map do |row|
-        text_div = row.at_css(".et_pb_text")
-        next unless text_div
+      events = event_blocks.filter_map do |block|
+        doc = Nokogiri::HTML::DocumentFragment.parse(block)
 
-        title = text_div.at_css("h2")&.content&.strip
-        date_str = text_div.at_css("h3")&.content&.strip
+        title = doc.at_css("h2")&.content&.strip
+        date_str = doc.at_css("h3")&.content&.strip
         next unless title && date_str
 
         date = parse_date(date_str)
@@ -24,8 +23,12 @@ module Buitenpost
           next
         end
 
-        description = text_div.css("p").map(&:content).map(&:strip).reject(&:empty?).join("\n\n")
-        url = row.at_css(".et_pb_button")&.attribute("href")&.content
+        description = doc.css("p").map(&:content).map(&:strip)
+          .reject(&:empty?)
+          .reject { |t| t.match?(/\[\/?\w+/) } # strip Divi shortcode text
+          .join("\n\n")
+
+        url = extract_button_url(block)
         url = "#{BASE_URL}#{url}" if url && url.start_with?("/")
         url ||= "#{BASE_URL}/agenda/"
 
@@ -44,13 +47,13 @@ module Buitenpost
     private
 
     def parse_date(date_str)
-      # Handles: "3 april 2026", "5 en 6 april 2026", "22 maart 2026"
-      # For multi-day events like "5 en 6 april 2026", use the first date
+      # Handles: "3 april 2026", "5 en 6 april 2026", "5 + 6 april 2026", "22 maart 2026"
+      # For multi-day events, use the first date
       cleaned = date_str.gsub(/\s+/, " ").strip
       cleaned = normalize_time(cleaned)
 
-      # Multi-day: "5 en 6 april 2026" or "9 en 10 mei 2026"
-      if cleaned =~ /(\d{1,2})\s+en\s+\d{1,2}\s+(\w+)\s+(\d{4})/
+      # Multi-day: "5 en 6 april 2026", "5 + 6 april 2026", "9 en 10 mei 2026"
+      if cleaned =~ /(\d{1,2})\s+(?:en|\+)\s+\d{1,2}\s+(\w+)\s+(\d{4})/
         DateTime.parse("#{$1} #{$2} #{$3}")
       else
         DateTime.parse(cleaned)
@@ -60,15 +63,28 @@ module Buitenpost
       nil
     end
 
-    def event_rows
+    def extract_button_url(block)
+      # Extract URL from Divi button shortcode: [et_pb_button button_url="..."]
+      # Quotes may be encoded as &#8221; &#8243; or regular quotes
+      if block =~ /\[et_pb_button\s[^\]]*button_url=["\u201C\u201D\u2033]*([^"\u201C\u201D\u2033\]]+)/
+        url = $1.gsub("\\/", "/")
+        url
+      end
+    end
+
+    def event_blocks
       @base_urls.map do |url|
-        json = JSON.parse(URI.open(url, **uri_open_headers).read)
+        content = URI.open(url, **uri_open_headers).read
+        json = JSON.parse(content)
         html = json.dig("content", "rendered")
-        doc = Nokogiri::HTML(html)
-        doc.css(".et_pb_row").select do |row|
-          style = row.attribute("style")&.content.to_s
-          row.at_css("h2") && row.at_css("h3") && style.include?("#09a0a9")
-        end
+
+        # Decode HTML entities
+        decoded = Nokogiri::HTML::DocumentFragment.parse(html).to_html
+
+        # Split content into blocks by [et_pb_row ...] shortcodes
+        # Each event block has background_color="#09a0a9"
+        blocks = decoded.split(/\[et_pb_row\s/)
+        blocks.select { |b| b.include?("#09a0a9") && b.include?("<h2>") }
       end.flatten
     end
   end
