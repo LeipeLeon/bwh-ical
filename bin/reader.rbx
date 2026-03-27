@@ -15,6 +15,7 @@ end
 require 'open-uri'
 require 'nokogiri'
 require 'json'
+require 'fileutils'
 
 require './app/calendar_builder'
 require './app/greg_or_ian.rb'
