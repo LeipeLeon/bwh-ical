@@ -405,6 +405,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/de-perifeer-mag-zea/"
   },
   {
+    "datum": "03-04-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Kick out the Jams",
+    "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-39/"
+  },
+  {
     "datum": "04-04-2026",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -421,5 +430,41 @@
     "locatie": "Walhalla, Deventer",
     "title": "Politie Warnsveld",
     "url": "https://www.walhalla-deventer.nl/activiteit/politie-warnsveld/"
+  },
+  {
+    "datum": "24-04-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "STROOP // Open Mic",
+    "url": "https://www.walhalla-deventer.nl/activiteit/stroop-open-mic-3/"
+  },
+  {
+    "datum": "25-04-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Achter de Muren: Driegitakt ft. No Barbie, vanta & Sophia d’Rêve",
+    "url": "https://www.walhalla-deventer.nl/activiteit/achter-de-muren-driegitakt-ft-no-barbie-vanta-sophia-dreve/"
+  },
+  {
+    "datum": "09-05-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Deventer Metalfest",
+    "url": "https://www.walhalla-deventer.nl/activiteit/deventer-metalfest-4/"
+  },
+  {
+    "datum": "23-05-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Achter de Muren: Meneer De Perifeer",
+    "url": "https://www.walhalla-deventer.nl/activiteit/achter-de-muren-meneer-de-perifeer/"
   }
 ]
