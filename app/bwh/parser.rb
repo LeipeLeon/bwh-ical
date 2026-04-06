@@ -40,7 +40,10 @@ module Bwh
             # puts "     div: #{val}"
             val.gsub(".", ":")
           end.compact
-        end.transpose
+        end.then { |boxes|
+          max_len = boxes.map(&:length).max || 0
+          boxes.map { |b| Array.new(max_len - b.length, "") + b }.transpose
+        }
       end.flatten(1).map {|k,v| [k.sub(":","").to_sym, v]}
     end
 
