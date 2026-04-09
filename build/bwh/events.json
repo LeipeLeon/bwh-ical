@@ -1,70 +1,5 @@
 [
   {
-    "datum": "02-04-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:30 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 23,-",
-    "url": "https://www.burgerweeshuis.nl/events/the-indien",
-    "title": "The Indien ",
-    "description": "Apr 02, 2026 – De Haagse band The Indien, het project rondom zangeres Rianne Walther, brengt een unieke mix van vintage invloeden en eigentijdse popsongs naar het podium!"
-  },
-  {
-    "datum": "03-04-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:15 uur",
-    "eindtijd": "22:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 22,-",
-    "url": "https://www.burgerweeshuis.nl/events/amsterdam-klezmer-band",
-    "title": "Amsterdam Klezmer Band",
-    "description": "Apr 03, 2026 – De Amsterdam Klezmer Band staat al 30 jaar aan de top met hun wervelende mix van klezmer, balkan, ska, jazz, gipsy, oriëntaals en hiphop."
-  },
-  {
-    "datum": "04-04-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "19:30 uur",
-    "eindtijd": "00:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 19,-",
-    "url": "https://www.burgerweeshuis.nl/events/vroegzat-9",
-    "title": "VroegZat ",
-    "description": "Apr 04, 2026 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
-  },
-  {
-    "datum": "05-04-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:45 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€ 21,-",
-    "url": "https://www.burgerweeshuis.nl/events/dirty-sound-magnet-temple-fang",
-    "title": "Dirty Sound Magnet // Temple Fang",
-    "description": "Apr 05, 2026 – Twee van de meest explosieve livebands uit de Europese underground op het Burgerpodium voor één zinderende avond. Verwacht een muzikale achtbaan vol psychedelische intensiteit, rauwe rockenergie en next level liveshows."
-  },
-  {
-    "datum": "08-04-2026",
-    "locatie": "Concertzaal",
-    "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "22:30 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "gratis",
-    "url": "https://www.burgerweeshuis.nl/events/science-cafe-6",
-    "title": "Science Café    ",
-    "description": "Apr 08, 2026 – Een kring om de maan, het morgenrood, de regenboog: het zijn natuurverschijnselen die we allemaal wel eens hebben gezien. Maar wie kent de ring van Bishop, de bogen van Lowitz, de onderzon of de groene flits? Wat is een fata morgana? En hoe komt het dat de lucht blauw is?"
-  },
-  {
     "datum": "09-04-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
@@ -119,8 +54,8 @@
   {
     "datum": "13-04-2026",
     "locatie": "Concertzaal",
-    "geopend": "18:00 uur",
-    "aanvang": "18:30 uur",
+    "geopend": "18:30 uur",
+    "aanvang": "19:00 uur",
     "eindtijd": "23:00 uur",
     "leeftijd": "alle",
     "type": "",
@@ -245,6 +180,19 @@
     "url": "https://www.burgerweeshuis.nl/events/altoooooh-5",
     "title": "ALTOOOOOH!  ",
     "description": "Apr 25, 2026 – Altoooooh! staat voor fijnproeversmuziek van het intense soort. Alternatieve muziek waarop gedanst kan worden. Met als basis de muziek uit de jaren 80 en 90 en bangers van nu. Altoooooh! is een clubavond die je indie-hart sneller laat kloppen."
+  },
+  {
+    "datum": "26-04-2026",
+    "locatie": "Concertzaal",
+    "geopend": "23:30 uur",
+    "aanvang": "23:30 uur",
+    "eindtijd": "04:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 15,99",
+    "url": "https://www.burgerweeshuis.nl/events/guilty-2",
+    "title": "Guilty",
+    "description": "Apr 26, 2026 – Zondag 26 april staat GUILTY in het Burgerweeshuis; een hemelse samenwerking op Koningsnacht tussen 𝐂𝐮𝐩𝐢𝐝𝐨 en 𝐍𝐢𝐞𝐮𝐰 𝐁𝐥𝐨𝐞𝐝."
   },
   {
     "datum": "27-04-2026",
@@ -418,9 +366,9 @@
   {
     "datum": "16-05-2026",
     "locatie": "Concertzaal",
-    "geopend": "19:00 uur",
-    "aanvang": "19:00 uur",
-    "eindtijd": "23:00 uur",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:59 uur",
     "leeftijd": "18+",
     "type": "",
     "prijs": "€ 25,-",
@@ -434,7 +382,7 @@
     "geopend": "13:00 uur",
     "aanvang": "14:00 uur",
     "eindtijd": "16:00 uur",
-    "leeftijd": "55+",
+    "leeftijd": "65+",
     "type": "seated",
     "prijs": "8,50",
     "url": "https://www.burgerweeshuis.nl/events/goud-van-toen",
@@ -600,8 +548,8 @@
   {
     "datum": "13-06-2026",
     "locatie": "Burgertuin",
-    "geopend": "19:30 uur",
-    "aanvang": "20:30 uur",
+    "geopend": "20:30 uur",
+    "aanvang": "21:30 uur",
     "eindtijd": "23:00 uur",
     "leeftijd": "alle",
     "type": "staconcert",
@@ -661,6 +609,19 @@
     "url": "https://www.burgerweeshuis.nl/events/merol",
     "title": "MEROL",
     "description": "Jun 27, 2026 – De sfeervolle binnentuin van het Burgerweeshuis vormt ook dit jaar in juni weer het decor voor een veelzijdige serie tuinconcerten waar de vonken vanaf gaan vliegen. De bijzondere setting zorgt keer op keer voor een speciale vibe."
+  },
+  {
+    "datum": "11-07-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "19:30 uur",
+    "eindtijd": "00:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 19,-",
+    "url": "https://www.burgerweeshuis.nl/events/vroegzat-10",
+    "title": "VroegZat ",
+    "description": "Jul 11, 2026 – VroegZat brengt het nachtleven terug naar de avond! Evenveel feest, maar eerder op de avond (19.30 tot 00.00 uur!) dus op een normale tijd naar bed waardoor je de volgende dag gewoon fit bent. Win-win!"
   },
   {
     "datum": "07-08-2026",
@@ -856,6 +817,19 @@
     "url": "https://www.burgerweeshuis.nl/events/lucky-fonz-iii",
     "title": " Lucky Fonz III",
     "description": "Nov 13, 2026 – Lucky Fonz III is één van Nederlands meest geliefde zangers en live-artiesten, bekend van hits als ‘Ik heb een meisje’, ‘Linde met een E, ‘Ik ben een sukkel’ en ‘Kwantumwetenschapper’."
+  },
+  {
+    "datum": "18-12-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 24,-",
+    "url": "https://www.burgerweeshuis.nl/events/jami-faulkner",
+    "title": " Jami Faulkner",
+    "description": "Dec 18, 2026 – Jaimi Faulkner is een artiest die je raakt vanaf de eerste noot. Met zijn warme sound en onweerstaanbare grooves beweegt hij moeiteloos tussen Americana, rock en soulvolle singer-songwriter vibes. Als begaafd gitarist én emotionele verteller brengt hij zowel intieme ballads als krachtige, energieke songs tot leven."
   },
   {
     "datum": "27-12-2026",
