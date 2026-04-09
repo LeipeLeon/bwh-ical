@@ -1,23 +1,5 @@
 [
   {
-    "datum": "26-07-2025",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Le Privet Social",
-    "url": "https://www.walhalla-deventer.nl/activiteit/le-privet-social-3/"
-  },
-  {
-    "datum": "27-07-2025",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Zomerstop 2025",
-    "url": "https://www.walhalla-deventer.nl/activiteit/2614/"
-  },
-  {
     "datum": "13-09-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -253,21 +235,21 @@
   },
   {
     "datum": "09-01-2026",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Kick out the Jams #37",
-    "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-37/"
-  },
-  {
-    "datum": "09-01-2026",
     "geopend": "08:00 uur",
     "aanvang": "08:00 uur",
     "eindtijd": "12:00 uur",
     "locatie": "Walhalla, Deventer",
     "title": "Irish Pub Festival -The Paps",
     "url": "https://www.walhalla-deventer.nl/activiteit/irish-pub-festival-the-paps/"
+  },
+  {
+    "datum": "09-01-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Kick out the Jams #37",
+    "url": "https://www.walhalla-deventer.nl/activiteit/kick-out-the-jams-37/"
   },
   {
     "datum": "10-01-2026",
@@ -423,6 +405,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/shadowplay-alternative-80s-dance-party-3/"
   },
   {
+    "datum": "10-04-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Caféavond",
+    "url": "https://www.walhalla-deventer.nl/activiteit/cafeavond/"
+  },
+  {
     "datum": "11-04-2026",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -430,6 +421,15 @@
     "locatie": "Walhalla, Deventer",
     "title": "Politie Warnsveld",
     "url": "https://www.walhalla-deventer.nl/activiteit/politie-warnsveld/"
+  },
+  {
+    "datum": "17-04-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Ateliercafé",
+    "url": "https://www.walhalla-deventer.nl/activiteit/ateliercafe-7/"
   },
   {
     "datum": "24-04-2026",
@@ -457,6 +457,15 @@
     "locatie": "Walhalla, Deventer",
     "title": "Deventer Metalfest",
     "url": "https://www.walhalla-deventer.nl/activiteit/deventer-metalfest-4/"
+  },
+  {
+    "datum": "15-05-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Dragonfruit | Drag & Karaoke #2",
+    "url": "https://www.walhalla-deventer.nl/activiteit/dragonfruit-drag-karaoke-2/"
   },
   {
     "datum": "23-05-2026",
