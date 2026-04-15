@@ -503,7 +503,7 @@
     "type": "",
     "prijs": "€ 27,-",
     "url": "https://www.burgerweeshuis.nl/events/snot-special-guest",
-    "title": "SNOT // Special Guest",
+    "title": "SNOT // Special Guest aurorawave",
     "description": "Jun 19, 2026 – De sfeervolle binnentuin van het Burgerweeshuis vormt ook dit jaar in juni weer het decor voor een veelzijdige serie tuinconcerten waar de vonken vanaf gaan vliegen. De bijzondere setting zorgt keer op keer voor een speciale vibe."
   },
   {
@@ -650,6 +650,19 @@
     "description": "Sep 25, 2026 – Soms is het gewoon een kwestie van geduld. Van samen blijven spelen, blijven lachen, blijven doorgaan. Van ‘Vechte, Valle en Opstoan' – en ondertussen muziek maken die raakt, verbindt en nooit stilstaat."
   },
   {
+    "datum": "01-10-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 32,-",
+    "url": "https://www.burgerweeshuis.nl/events/eloi-youssef",
+    "title": " Eloi Youssef",
+    "description": "Oct 01, 2026 – Na zestien jaar als frontman van Kensington koos Eloi Youssef in 2022 voor een nieuw pad. Als soloartiest zoekt hij de kern van zijn muzikale drijfveer: puur, integer en eerlijk."
+  },
+  {
     "datum": "02-10-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 uur",
@@ -661,6 +674,19 @@
     "url": "https://www.burgerweeshuis.nl/events/dub-pistols",
     "title": "Dub Pistols",
     "description": "Oct 02, 2026 – De Dub Pistols zijn voortgekomen uit de big beat-explosie van midden jaren negentig."
+  },
+  {
+    "datum": "02-10-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 32,-",
+    "url": "https://www.burgerweeshuis.nl/events/eloi-youssef-2",
+    "title": " Eloi Youssef ",
+    "description": "Oct 02, 2026 – Na zestien jaar als frontman van Kensington koos Eloi Youssef in 2022 voor een nieuw pad. Als soloartiest zoekt hij de kern van zijn muzikale drijfveer: puur, integer en eerlijk."
   },
   {
     "datum": "17-10-2026",
