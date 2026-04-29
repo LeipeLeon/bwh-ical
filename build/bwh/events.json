@@ -55,8 +55,8 @@
     "datum": "04-05-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:15 uur",
-    "aanvang": "20:45 uur",
-    "eindtijd": "23:00 uur",
+    "aanvang": "21:00 uur",
+    "eindtijd": "22:15 uur",
     "leeftijd": "alle",
     "type": "",
     "prijs": "€ 24,-",
@@ -180,6 +180,19 @@
     "url": "https://www.burgerweeshuis.nl/events/goud-van-toen",
     "title": "Goud van Toen",
     "description": "May 19, 2026 – Beleef een gezellige middag voor senioren vol muziek, plezier en herinneringen! Speel in teams van maximaal zes personen en reis terug naar de jaren ’50, ’60 en ’70 met live-muziek en beelden. Meezingen, neuriën of klappen; alles mag! Of je nu alleen komt, met een naaste of mantelzorger, iedereen is welkom!"
+  },
+  {
+    "datum": "20-05-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-7",
+    "title": "Science Café    ",
+    "description": "May 20, 2026 – LET OP: de lezing is ditmaal op de 3e woensdag van de maand"
   },
   {
     "datum": "22-05-2026",
