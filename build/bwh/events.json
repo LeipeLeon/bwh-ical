@@ -42,8 +42,8 @@
     "datum": "24-05-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "23:00 uur",
+    "aanvang": "20:40 uur",
+    "eindtijd": "22:30 uur",
     "leeftijd": "alle",
     "type": "",
     "prijs": "€ 40,-",
@@ -192,7 +192,7 @@
     "prijs": "€ 30,-",
     "url": "https://www.burgerweeshuis.nl/events/femi-kuti-the-positive-force",
     "title": " Femi Kuti & The Positive Force",
-    "description": "Jun 13, 2026 – De sfeervolle binnentuin van het Burgerweeshuis vormt ook dit jaar in juni weer het decor voor een veelzijdige serie tuinconcerten waar de vonken vanaf gaan vliegen. De bijzondere setting zorgt keer op keer voor een speciale vibe."
+    "description": "Jun 13, 2026 – Het geplande concert van Femi Kuti gaat helaas niet door omdat vanwege productionele redenen de hele tour is geannuleerd."
   },
   {
     "datum": "19-06-2026",
@@ -362,6 +362,19 @@
     "url": "https://www.burgerweeshuis.nl/events/garrett-t-capps",
     "title": "Garrett T. Capps",
     "description": "Sep 11, 2026 – Garrett T. Capps komt opnieuw met een onweerstaanbare ode aan zijn thuisstad op het album I Still Love San Antone."
+  },
+  {
+    "datum": "16-09-2026",
+    "locatie": "Concertzaal",
+    "geopend": "13:30 uur",
+    "aanvang": "14:00 uur",
+    "eindtijd": "16:00 uur",
+    "leeftijd": "65+",
+    "type": "seated",
+    "prijs": "8,50",
+    "url": "https://www.burgerweeshuis.nl/events/goud-van-toen-2",
+    "title": "Goud van Toen ",
+    "description": "Sep 16, 2026 – Beleef een gezellige middag voor senioren vol muziek, plezier en herinneringen! Speel in teams van maximaal zes personen en reis terug naar de jaren ’50, ’60 en ’70 met live-muziek en beelden. Meezingen, neuriën of klappen; alles mag! Of je nu alleen komt, met een naaste of mantelzorger, iedereen is welkom!"
   },
   {
     "datum": "25-09-2026",
