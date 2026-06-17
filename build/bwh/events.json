@@ -1,31 +1,5 @@
 [
   {
-    "datum": "17-06-2026",
-    "locatie": "Het Penninckshuis",
-    "geopend": "20:00 uur",
-    "aanvang": "20:45 uur",
-    "eindtijd": "22:30 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "€24,00",
-    "url": "https://www.burgerweeshuis.nl/events/turin-brakes",
-    "title": "Turin Brakes",
-    "description": "Jun 17, 2026 – Het Britse folk-pop duo Turin Brakes keert terug naar de essentie met een intieme akoestische show vol songs uit hun rijke oeuvre."
-  },
-  {
-    "datum": "17-06-2026",
-    "locatie": "Concertzaal",
-    "geopend": "20:00 ur",
-    "aanvang": "20:30 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "",
-    "prijs": "€25,00",
-    "url": "https://www.burgerweeshuis.nl/events/john-coffey",
-    "title": "John Coffey",
-    "description": "Jun 17, 2026 – John Coffey is terug! En hoe! Rauwer, scherper en nog steeds gebouwd op pure energie."
-  },
-  {
     "datum": "19-06-2026",
     "locatie": "Burgertuin",
     "geopend": "19:30 uur",
@@ -351,6 +325,19 @@
     "description": "Oct 09, 2026 – Met een flink aantal nominaties op zak en veel lovende recensies, keert Luwten terug met nieuwe muziek en een nieuwe fase."
   },
   {
+    "datum": "15-10-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:45 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "€24,00",
+    "url": "https://www.burgerweeshuis.nl/events/turin-brakes",
+    "title": "Turin Brakes",
+    "description": "Oct 15, 2026 – Het Britse folk-pop duo Turin Brakes keert terug naar de essentie met een intieme akoestische show vol songs uit hun rijke oeuvre."
+  },
+  {
     "datum": "16-10-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 uur",
@@ -544,6 +531,19 @@
     "url": "https://www.burgerweeshuis.nl/events/the-scratch",
     "title": "The Scratch",
     "description": "Dec 04, 2026 – Voor de Dublinse band The Scratch werd de legendarische quote was van de Ierse Olympische roeiers Gary en Paul O’Donovan, 'Sluit je ogen en trek als een hond', de perfecte mindset voor hun nieuwe album Pull Like A Dog."
+  },
+  {
+    "datum": "11-12-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 ur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€25,00",
+    "url": "https://www.burgerweeshuis.nl/events/john-coffey",
+    "title": "John Coffey",
+    "description": "Dec 11, 2026 – John Coffey is terug! En hoe! Rauwer, scherper en nog steeds gebouwd op pure energie."
   },
   {
     "datum": "12-12-2026",
