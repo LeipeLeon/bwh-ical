@@ -156,19 +156,6 @@
     "description": "Sep 11, 2026 – Garrett T. Capps komt opnieuw met een onweerstaanbare ode aan zijn thuisstad op het album I Still Love San Antone."
   },
   {
-    "datum": "12-09-2026",
-    "locatie": "Concertzaal",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "01:00 uur",
-    "leeftijd": "18+",
-    "type": "",
-    "prijs": "€ 12,-",
-    "url": "https://www.burgerweeshuis.nl/events/disco-lovers-5",
-    "title": " Disco Lovers",
-    "description": "Sep 12, 2026 – Disco Lovers is het feest voor iedereen die houdt van dansen, sfeer en de beste discohits van toen en nu. Een avond met herkenbare classics, stevige grooves en een volle dansvloer."
-  },
-  {
     "datum": "16-09-2026",
     "locatie": "Concertzaal",
     "geopend": "13:30 uur",
@@ -297,6 +284,19 @@
     "url": "https://www.burgerweeshuis.nl/events/luwten",
     "title": "Luwten",
     "description": "Oct 09, 2026 – Met een flink aantal nominaties op zak en veel lovende recensies, keert Luwten terug met nieuwe muziek en een nieuwe fase."
+  },
+  {
+    "datum": "10-10-2026",
+    "locatie": "Concertzaal",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "01:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 12,-",
+    "url": "https://www.burgerweeshuis.nl/events/disco-lovers-5",
+    "title": " Disco Lovers",
+    "description": "Oct 10, 2026 – Disco Lovers is het feest voor iedereen die houdt van dansen, sfeer en de beste discohits van toen en nu. Een avond met herkenbare classics, stevige grooves en een volle dansvloer."
   },
   {
     "datum": "15-10-2026",
