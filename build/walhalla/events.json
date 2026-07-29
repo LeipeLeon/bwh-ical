@@ -405,13 +405,13 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/inner-cabala-black-sapphire-traversus-live-metal/"
   },
   {
-    "datum": "29-07-2026",
+    "datum": "25-07-2026",
     "geopend": "08:00 uur",
     "aanvang": "08:00 uur",
     "eindtijd": "12:00 uur",
     "locatie": "Walhalla, Deventer",
-    "title": "Popronde Deventer",
-    "url": "https://www.walhalla-deventer.nl/activiteit/popronde-deventer-3/"
+    "title": "Zomerstop",
+    "url": "https://www.walhalla-deventer.nl/activiteit/zomerstop-3/"
   },
   {
     "datum": "04-09-2026",
@@ -430,6 +430,24 @@
     "locatie": "Walhalla, Deventer",
     "title": "Shadowplay // Alternative 80s Dance Party",
     "url": "https://www.walhalla-deventer.nl/activiteit/shadowplay-alternative-80s-dance-party-5/"
+  },
+  {
+    "datum": "19-09-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Popronde Deventer",
+    "url": "https://www.walhalla-deventer.nl/activiteit/popronde-deventer-3/"
+  },
+  {
+    "datum": "24-09-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "SPEELDRANG // Zwarte Markt // Harley Francine // Suma Katra",
+    "url": "https://www.walhalla-deventer.nl/activiteit/speeldrang-zwarte-markt-harley-francine-suma-katra/"
   },
   {
     "datum": "03-10-2026",
@@ -466,5 +484,23 @@
     "locatie": "Walhalla, Deventer",
     "title": "Shadowplay // Alternative 80s Dance Party",
     "url": "https://www.walhalla-deventer.nl/activiteit/shadowplay-alternative-80s-dance-party-6/"
+  },
+  {
+    "datum": "27-11-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "LA. Sange + support",
+    "url": "https://www.walhalla-deventer.nl/activiteit/la-sange/"
+  },
+  {
+    "datum": "18-12-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Library Card + support",
+    "url": "https://www.walhalla-deventer.nl/activiteit/library-card-support/"
   }
 ]
