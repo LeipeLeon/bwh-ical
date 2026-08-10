@@ -65,6 +65,19 @@
     "description": "Sep 05, 2026 – Beleef een onvergetelijke nacht in het Burgerweeshuis want ENTOURAGE is terug met de lekkerste Afrobeats, Afrohouse en Amapiano."
   },
   {
+    "datum": "09-09-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-woonvormen-van-morgen",
+    "title": "Science Café: Woonvormen van morgen",
+    "description": "Sep 09, 2026 – Kansen en uitdagingen van co-housing en andere woonconcepten met dr. Darinka Czischke."
+  },
+  {
     "datum": "11-09-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 uur",
@@ -132,12 +145,12 @@
   {
     "datum": "24-09-2026",
     "locatie": "Walhalla",
-    "geopend": "20:00 uur",
+    "geopend": "19:30 uur",
     "aanvang": "20:00 uur",
     "eindtijd": "23:00 uur",
     "leeftijd": "alle",
     "type": "",
-    "prijs": "€6",
+    "prijs": "€ 6,-",
     "url": "https://www.burgerweeshuis.nl/events/speeldrang-5",
     "title": "SPEELDRANG",
     "description": "Sep 24, 2026 – SPEELDRANG biedt jonge, Overijsselse makers de gelegenheid om nieuw werk te presenteren, een try-out show te spelen, of voor het eerst voor publiek op te treden. Lokale talenten krijgen de kans hun skills te tonen en zich verder te ontwikkelen binnen ons podium."
