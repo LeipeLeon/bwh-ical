@@ -648,5 +648,18 @@
     "url": "https://www.burgerweeshuis.nl/events/new-cool-collective",
     "title": "New Cool Collective",
     "description": "Jan 15, 2027 – New Cool Collective staat bekend om hun energieke mix van jazz, funk, Latin, afrobeat en dance. Met strakke grooves, veel ruimte voor improvisatie en een sterke focus op ritme en dansbaarheid treden ze op met hun 8-koppige band."
+  },
+  {
+    "datum": "10-04-2027",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "€ 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/laura-veirs",
+    "title": " Laura Veirs",
+    "description": "Apr 10, 2027 – Laura Veirs, een Amerikaanse singer-songwriter, staat bekend om haar haar folk- en alternatieve countryplaten. Na haar samenwerking met Neko Case en k.d. Lang staat haar solowerk steeds meer in de belangstelling."
   }
 ]
