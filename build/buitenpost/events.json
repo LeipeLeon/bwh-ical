@@ -29,9 +29,30 @@
   },
   {
     "datum": "30-10-2026",
-    "title": "Halloween spooktocht",
+    "title": "Halloween bij Buitenpost",
     "url": "https://bijbuitenpost.nl/wijnfestival",
     "description": "",
+    "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
+  },
+  {
+    "datum": "17-04-2027",
+    "title": "Lentebierfestival",
+    "url": "https://bijbuitenpost.nl/lentebierfestival",
+    "description": "Meer info volgt!\n\n ",
+    "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
+  },
+  {
+    "datum": "26-06-2027",
+    "title": "Wijnfestival",
+    "url": "https://bijbuitenpost.nl/wijnfestival",
+    "description": "Hij komt er weer aan: het Wijnfestival Buitenpost! Tijdens dit festival lanceren we onze nieuwe Buitenpost-wijnen! Daarnaast nemen diverse wijnhuizen een bijzondere selectie van Nederlandse én buitenlandse wijnen mee. Een zomers festival met kleedjes in het gras, vrolijke mensen en volle glazen tussen de druiven van onze wijngaard.\n\nMeer info volgt!",
+    "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
+  },
+  {
+    "datum": "21-03-20267",
+    "title": "Mudrun ",
+    "url": "https://bijbuitenpost.nl/mudrun",
+    "description": "Ticketverkoop volgt.",
     "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
   }
 ]

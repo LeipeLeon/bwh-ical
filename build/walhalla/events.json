@@ -1,14 +1,5 @@
 [
   {
-    "datum": "19-12-2025",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
-    "locatie": "Walhalla, Deventer",
-    "title": "Talent Night: Deventer Talenthouse",
-    "url": "https://www.walhalla-deventer.nl/activiteit/talent-night-deventer-talenthouse/"
-  },
-  {
     "datum": "20-12-2025",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -439,6 +430,15 @@
     "locatie": "Walhalla, Deventer",
     "title": "Shadowplay // Alternative 80s Dance Party",
     "url": "https://www.walhalla-deventer.nl/activiteit/shadowplay-alternative-80s-dance-party-5/"
+  },
+  {
+    "datum": "12-09-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "MAXIMAAL",
+    "url": "https://www.walhalla-deventer.nl/activiteit/maximaal-5/"
   },
   {
     "datum": "19-09-2026",
