@@ -30,8 +30,15 @@
   {
     "datum": "30-10-2026",
     "title": "Halloween bij Buitenpost",
-    "url": "https://bijbuitenpost.nl/agenda/",
+    "url": "https://bijbuitenpost.nl/halloween/",
     "description": "",
+    "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
+  },
+  {
+    "datum": "28-03-2027",
+    "title": "Paasbrunch",
+    "url": "https://bijbuitenpost.nl/paasbrunch",
+    "description": "Geen zin om zelf lang in de keuken te staan voor een paasbrunch? Wij wel! Op 28 maart, Eerste Paasdag, organiseren we een uitgebreide paasbrunch in het DAVO proeflokaal in de kas.\n\nMeer informatie volgt!\n\n ",
     "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
   },
   {
@@ -46,13 +53,6 @@
     "title": "Wijnfestival",
     "url": "https://bijbuitenpost.nl/wijnfestival",
     "description": "Hij komt er weer aan: het Wijnfestival Buitenpost! Tijdens dit festival lanceren we onze nieuwe Buitenpost-wijnen! Daarnaast nemen diverse wijnhuizen een bijzondere selectie van Nederlandse én buitenlandse wijnen mee. Een zomers festival met kleedjes in het gras, vrolijke mensen en volle glazen tussen de druiven van onze wijngaard.\n\nMeer info volgt!",
-    "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
-  },
-  {
-    "datum": "21-03-20267",
-    "title": "Mudrun ",
-    "url": "https://bijbuitenpost.nl/agenda/",
-    "description": "Ticketverkoop volgt.",
     "locatie": "Landgoed Buitenpost, Rijksstraatweg 7, Twello"
   }
 ]
