@@ -78,6 +78,19 @@
     "description": "Oct 10, 2026 – Disco Lovers is het feest voor iedereen die houdt van dansen, sfeer en de beste discohits van toen en nu. Een avond met herkenbare classics, stevige grooves en een volle dansvloer."
   },
   {
+    "datum": "14-10-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-van-atomen-tot-innovaties",
+    "title": "Science Café: Van atomen tot innovaties",
+    "description": "Oct 14, 2026 – De kracht van nanotechnologie in het dagelijkse leven en de technologie van morgen met prof.dr.ing. Guus Rijnders."
+  },
+  {
     "datum": "15-10-2026",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
@@ -414,6 +427,19 @@
     "url": "https://www.burgerweeshuis.nl/events/the-scratch",
     "title": "The Scratch",
     "description": "Dec 04, 2026 – Voor de Dublinse band The Scratch werd de legendarische quote was van de Ierse Olympische roeiers Gary en Paul O’Donovan, 'Sluit je ogen en trek als een hond', de perfecte mindset voor hun nieuwe album Pull Like A Dog."
+  },
+  {
+    "datum": "05-12-2026",
+    "locatie": "Concertzaal",
+    "geopend": "22:00 uur",
+    "aanvang": "22:00 uur",
+    "eindtijd": "03:00 uur",
+    "leeftijd": "18+",
+    "type": "",
+    "prijs": "€ 17,- / late: € 19,-",
+    "url": "https://www.burgerweeshuis.nl/events/fiesta-macumba-4",
+    "title": "Fiesta Macumba",
+    "description": "Dec 05, 2026 – Fiesta Macumba is terug voor een nieuwe nacht vol met de heetste Música Latina, high energy, familia en die speciale spirit die alleen Fiesta Macumba heeft."
   },
   {
     "datum": "11-12-2026",
