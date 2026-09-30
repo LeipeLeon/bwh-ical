@@ -52,19 +52,6 @@
     "description": "Oct 03, 2026 – Perifest is terug! Ook nu weer een onvergetelijke ervaring, gepresenteerd door De Perifeer, in samenwerking met Nachtparlement."
   },
   {
-    "datum": "09-10-2026",
-    "locatie": "Het Penninckshuis",
-    "geopend": "20:00 uur",
-    "aanvang": "20:30 uur",
-    "eindtijd": "23:00 uur",
-    "leeftijd": "alle",
-    "type": "seated",
-    "prijs": "€ 22,-",
-    "url": "https://www.burgerweeshuis.nl/events/luwten",
-    "title": "Luwten",
-    "description": "Oct 09, 2026 – Met een flink aantal nominaties op zak en veel lovende recensies, keert Luwten terug met nieuwe muziek en een nieuwe fase."
-  },
-  {
     "datum": "10-10-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 uur",
@@ -520,9 +507,22 @@
     "description": "Dec 18, 2026 – Expressief en toch bedachtzaam, schurend en toch melodieus, explosief en toch introvert: het Rotterdamse Library Card is een band van contrasten."
   },
   {
+    "datum": "19-12-2026",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "23:00 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "€ 22,-",
+    "url": "https://www.burgerweeshuis.nl/events/luwten",
+    "title": "Luwten",
+    "description": "Dec 19, 2026 – Met een flink aantal nominaties op zak en veel lovende recensies, keert Luwten terug met nieuwe muziek en een nieuwe fase."
+  },
+  {
     "datum": "27-12-2026",
     "locatie": "Concertzaal",
-    "geopend": "13:30 uur",
+    "geopend": "14:30 uur",
     "aanvang": "15:00 uur",
     "eindtijd": "20:00 uur",
     "leeftijd": "alle",
