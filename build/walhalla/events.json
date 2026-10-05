@@ -450,6 +450,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/vals-alarm/"
   },
   {
+    "datum": "30-10-2026",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Dragonfruit | Drag & Karaoke #3 Halloween edition",
+    "url": "https://www.walhalla-deventer.nl/activiteit/dragonfruit-drag-karaoke-3-halloween-edition/"
+  },
+  {
     "datum": "31-10-2026",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -491,7 +500,16 @@
     "aanvang": "20:00 uur",
     "eindtijd": "00:00 uur",
     "locatie": "Walhalla, Deventer",
-    "title": "Library Card + support",
+    "title": "Library Card + Housemaid",
     "url": "https://www.walhalla-deventer.nl/activiteit/library-card-support/"
+  },
+  {
+    "datum": "12-02-2027",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Nomads Radio – EP Release ‘Daydreamer’",
+    "url": "https://www.walhalla-deventer.nl/activiteit/nomads-radio-ep-release-daydreamer/"
   }
 ]
