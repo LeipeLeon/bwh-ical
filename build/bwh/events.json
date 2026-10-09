@@ -339,6 +339,19 @@
   },
   {
     "datum": "28-11-2026",
+    "locatie": "Burgercafé",
+    "geopend": "16:00 uur",
+    "aanvang": "16:00 ur",
+    "eindtijd": "23:59 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 18,50",
+    "url": "https://www.burgerweeshuis.nl/events/noordenberg-jazz",
+    "title": "Noordenberg Jazz  ",
+    "description": "Nov 28, 2026 – Noordenberg Jazz is een kleinschalig jazz-festival op vier podia in het Noordenbergkwartier Deventer."
+  },
+  {
+    "datum": "28-11-2026",
     "locatie": "Concertzaal",
     "geopend": "23:00 uur",
     "aanvang": "23:00 uur",
