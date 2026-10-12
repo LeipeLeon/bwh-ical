@@ -415,9 +415,9 @@
   },
   {
     "datum": "17-10-2026",
-    "geopend": "20:00 uur",
-    "aanvang": "20:00 uur",
-    "eindtijd": "00:00 uur",
+    "geopend": "19:00 uur",
+    "aanvang": "19:00 uur",
+    "eindtijd": "23:00 uur",
     "locatie": "Walhalla, Deventer",
     "title": "Changing Tides – Release show + support",
     "url": "https://www.walhalla-deventer.nl/activiteit/changing-tides-album-release-show-support/"
@@ -529,5 +529,14 @@
     "locatie": "Walhalla, Deventer",
     "title": "Nomads Radio – EP Release ‘Daydreamer’",
     "url": "https://www.walhalla-deventer.nl/activiteit/nomads-radio-ep-release-daydreamer/"
+  },
+  {
+    "datum": "06-03-2027",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Eosine",
+    "url": "https://www.walhalla-deventer.nl/activiteit/eosine/"
   }
 ]
