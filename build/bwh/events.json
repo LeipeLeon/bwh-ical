@@ -625,6 +625,19 @@
   },
   {
     "datum": "10-04-2027",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "23:30 uur",
+    "leeftijd": "alle",
+    "type": "",
+    "prijs": "€ 32,-",
+    "url": "https://www.burgerweeshuis.nl/events/motorpsycho",
+    "title": "Motorpsycho",
+    "description": "Apr 10, 2027 – In 2027 trekt Motorpsycho opnieuw door Europa met een gloednieuwe show vol nieuw werk, klassiekers en psychedelische waanzin."
+  },
+  {
+    "datum": "10-04-2027",
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
     "aanvang": "20:30 uur",
