@@ -495,6 +495,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/library-card-support/"
   },
   {
+    "datum": "29-01-2027",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Rotzorg",
+    "url": "https://www.walhalla-deventer.nl/activiteit/rotzorg/"
+  },
+  {
     "datum": "12-02-2027",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -504,6 +513,15 @@
     "url": "https://www.walhalla-deventer.nl/activiteit/nomads-radio-ep-release-daydreamer/"
   },
   {
+    "datum": "26-02-2027",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "Van Tastik",
+    "url": "https://www.walhalla-deventer.nl/activiteit/van-tastik/"
+  },
+  {
     "datum": "06-03-2027",
     "geopend": "20:00 uur",
     "aanvang": "20:00 uur",
@@ -511,5 +529,14 @@
     "locatie": "Walhalla, Deventer",
     "title": "Eosine",
     "url": "https://www.walhalla-deventer.nl/activiteit/eosine/"
+  },
+  {
+    "datum": "02-04-2027",
+    "geopend": "20:00 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "00:00 uur",
+    "locatie": "Walhalla, Deventer",
+    "title": "StonerGrungeFest 2027",
+    "url": "https://www.walhalla-deventer.nl/activiteit/stonergrungefest-2027/"
   }
 ]
