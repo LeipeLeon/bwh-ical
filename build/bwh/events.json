@@ -117,6 +117,19 @@
     "description": "Nov 07, 2026 – Trots presenteren wij dat Nieuw Bloed, Barstories en De Smaak van Deventer dit jaar wederom de krachten bundelen met alweer de vierde editie van Santé."
   },
   {
+    "datum": "11-11-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-bacterien-op-oorlogspad",
+    "title": "Science Café: Bacteriën op oorlogspad",
+    "description": "Nov 11, 2026 – Ontstaan, verspreiding en behandeling van antibiotica-resistentie."
+  },
+  {
     "datum": "13-11-2026",
     "locatie": "Concertzaal",
     "geopend": "19:30 uur",
