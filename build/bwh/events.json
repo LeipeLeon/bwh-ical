@@ -377,6 +377,19 @@
     "description": "Jan 30, 2027 – Een plek waar de liefde voor elektronische muziek samenkomt in de nacht. Alter Ego is het feest voor een nieuwe generatie ravers en makers die even aan zichzelf willen ontsnappen en alles van zich af willen dansen."
   },
   {
+    "datum": "06-02-2027",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "ale",
+    "type": "",
+    "prijs": "€ 15,99",
+    "url": "https://www.burgerweeshuis.nl/events/among-the-saints-mcscallywag",
+    "title": " Among The Saints // McScallywag",
+    "description": "Feb 06, 2027 – Tijdens het Irish Pub Festival zorgen Among The Saints en McScallywag voor een muzikale explosie van folk, punk en pure feestenergie!"
+  },
+  {
     "datum": "11-02-2027",
     "locatie": "Concertzaal",
     "geopend": "20;00 uur",
