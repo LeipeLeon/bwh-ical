@@ -1,7 +1,7 @@
 [
   {
     "datum": "20-11-2026",
-    "title": "Valse start",
+    "title": "VALSE START NOVEMBER",
     "url": "https://www.burnside.nl/agenda/valse-start-14/",
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
@@ -24,9 +24,33 @@
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   },
   {
+    "datum": "18-12-2026",
+    "title": "VALSE START DECEMBER",
+    "url": "https://www.burnside.nl/agenda/valse-start-15/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "22-01-2027",
+    "title": "VALSE START JANUARI",
+    "url": "https://www.burnside.nl/agenda/valse-start-16/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
     "datum": "03-02-2027",
     "title": "Snowboard Wax & Slijp clinic",
     "url": "https://www.burnside.nl/agenda/snowboard-wax-slijp-clinic/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "19-02-2027",
+    "title": "VALSE START FEBRUARI",
+    "url": "https://www.burnside.nl/agenda/valse-start-17/",
+    "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
+  },
+  {
+    "datum": "26-03-2027",
+    "title": "VALSE START MAART",
+    "url": "https://www.burnside.nl/agenda/valse-start-18/",
     "locatie": "Burnside Park & Shop, Sint Olafstraat 6"
   }
 ]
