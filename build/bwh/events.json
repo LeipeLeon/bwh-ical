@@ -43,9 +43,9 @@
     "locatie": "Het Penninckshuis",
     "geopend": "20:00 uur",
     "aanvang": "20:30 uur",
-    "eindtijd": "23:00 uur",
+    "eindtijd": "22:30 uur",
     "leeftijd": "alle",
-    "type": "",
+    "type": "seated",
     "prijs": "€ 26,50",
     "url": "https://www.burgerweeshuis.nl/events/mister-and-mississippi",
     "title": "Mister and Mississippi",
@@ -583,6 +583,19 @@
     "url": "https://www.burgerweeshuis.nl/events/housequake-2",
     "title": "Housequake",
     "description": "Apr 02, 2027 – Het Nederlandse dj-duo Housequake, bestaande uit ROOG en Erick E, komen terug met een avond vol nostalgie!"
+  },
+  {
+    "datum": "03-04-2027",
+    "locatie": "Het Penninckshuis",
+    "geopend": "20:00 uur",
+    "aanvang": "20:30 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "€ 24,-",
+    "url": "https://www.burgerweeshuis.nl/events/jake-xerxes-fusselll",
+    "title": " Jake Xerxes Fussell",
+    "description": "Apr 03, 2027 – Jake Xerxes Fussell uit North Carolina is uitgegroeid tot een bijzondere stem binnen de Amerikaanse folk."
   },
   {
     "datum": "09-04-2027",
