@@ -156,6 +156,19 @@
     "description": "Dec 05, 2026 – Fiesta Macumba is terug voor een nieuwe nacht vol met de heetste Música Latina, high energy, familia en die speciale spirit die alleen Fiesta Macumba heeft."
   },
   {
+    "datum": "09-12-2026",
+    "locatie": "Concertzaal",
+    "geopend": "19:30 uur",
+    "aanvang": "20:00 uur",
+    "eindtijd": "22:30 uur",
+    "leeftijd": "alle",
+    "type": "seated",
+    "prijs": "gratis",
+    "url": "https://www.burgerweeshuis.nl/events/science-cafe-monsters-tussen-goed-en-kwaad",
+    "title": "Science Café: Monsters tussen goed en kwaad",
+    "description": "Dec 09, 2026 – Onze kijk op bovennatuurlijke wezens in mythologie en volksverhalen."
+  },
+  {
     "datum": "11-12-2026",
     "locatie": "Concertzaal",
     "geopend": "20:00 ur",
